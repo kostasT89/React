@@ -1,0 +1,20 @@
+export default {
+  balance: 'balance',
+  availableBalance: 'availableBalance',
+  vestedBalance: 'vestedBalance',
+  ytdInterest: 'ytdInterest',
+  maturityDate: 'maturityDate',
+  ytdFeesPaid: 'ytdFeesPaid',
+  apy: 'apy',
+  apr: 'apr',
+  ytdInterestAndFeesPaid: 'ytdInterestAndFeesPaid',
+  dueDate: 'dueDate',
+  nextPayment: 'nextPayment',
+  minimumAmountDue: 'minimumAmountDue',
+  availableCredit: 'availableCredit',
+  totalCreditLine: 'totalCreditLine',
+  createdDate: 'createdDate',
+  accountType: 'accountType',
+  hasImportedBills: 'hasImportedBills',
+  hasImportedIncome: 'hasImportedIncome'
+};

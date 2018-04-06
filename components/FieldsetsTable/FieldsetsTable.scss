@@ -1,0 +1,12 @@
+@import '../../scss/colors';
+@import '../../scss/config';
+
+.lc-fieldsets-table {
+  height: 110vh;
+  width: 100%;
+
+  .lc-fieldsets-table-cell--col-2 {
+    color: $c-blue;
+    font-weight: 600;
+  }
+}

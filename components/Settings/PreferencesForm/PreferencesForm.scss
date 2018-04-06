@@ -1,0 +1,354 @@
+@import '../../../scss/config';
+@import '../../../scss/colors';
+
+.lc-preferences__container {
+  background-color: $c-white;
+  border: solid 1px rgba(150, 150, 150, 0.22);
+  margin: 0px 20px 0 40px;
+  padding-bottom: 50px;
+  height: auto;
+  overflow: auto;
+
+  // OVERRIDE CSS styles - START
+  .lc-input-group.lc-input-group--valid .lc-input-group__field {
+    border-bottom: 2px solid $c-white;
+  }
+
+  .lc-select-group.lc-select-group--valid .lc-select-group__select {
+    border-bottom: 2px solid $c-white;
+  }
+
+  .lc-select-group .lc-select-group__select {
+    border-bottom: 2px solid $c-white;
+  }
+
+  .lc-select-group .lc-select-group__select {
+    color: black;
+  }
+
+  .columns:last-child:not(:first-child) {
+    float: left;
+  }
+
+  .lc-radio-group__field-label-text,
+  .lc-generic-button--white {
+    font-family: OpenSans;
+    color: $c-warm-gray-two;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .lc-radio-group__label {
+    height: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    color: $c-warm-gray;
+  }
+
+  .lc-select-group__text {
+    font-size: 12px;
+    font-weight: 600;
+    color: $c-warm-gray-three;
+  }
+  .lc-radio-group
+  .lc-radio-group__text {
+    line-height: 30px;
+    color: $c-warm-gray-three;
+  }
+
+  .lc-generic-header-cell__icon {
+    color: transparent;
+  }
+  // OVERRIDE CSS styles - END
+
+  .lc-columns {
+    float: left;
+  }
+
+  .lc-preferences__save-success-message,
+  .lc-preferences__save-error-message {
+    height: 30px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .lc-preferences__save-success-message {
+    color: #32cd32;
+    background-color: transparent;
+  }
+
+  .lc-preferences__save-error-message {
+    background-color: red;
+  }
+
+  .lc-preferences__body-personal-info {
+
+
+    .lc-preferences__header-personal-info {
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 50px;
+      font-family: OpenSans;
+    	font-size: 24px;
+    	font-weight: 600;
+    	letter-spacing: 2px;
+      border-bottom: solid 2px $c-blue;
+      padding-bottom: 8px;
+    }
+
+    .lc-preferences__form-fields-personal-info {
+      float: left;
+      padding-top: 32px;
+    }
+    .lc-preferences__form-field {
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        &:not(:first-child) {
+          margin-top: 31px;
+        }
+
+        .lc-input-group, .lc-radio-group, .lc-select-group {
+          flex: 1;
+        }
+      }
+      .lc-personal-field-title {
+        width: 160px;
+        font-family: OpenSans;
+        font-size: 18px;
+        font-weight: 600;
+        color: $c-grayish-brown;
+        text-align: right;
+        padding-right: 19px;
+        letter-spacing: 1.5px;
+      }
+    .lc-preferences__form-label {
+      float: right;
+      height: 30px;
+      font-family: OpenSans;
+    	font-size: 18px;
+    	font-weight: 600;
+    	letter-spacing: 1.5px;
+    	color: $c-grayish-brown;
+
+      &.coClient {
+        float: left;
+      }
+    }
+
+    .lc-preferences__form-fields-co-client {
+      float: left;
+
+      .lc-preferences__form-fields-co-client-label {
+        padding-top: 2px;
+        margin-bottom: 30px;
+
+        .lc-preferences__form-field-label-co-client {
+          float: left;
+          height: 30px;
+          font-family: OpenSans;
+        	font-size: 18px;
+        	font-weight: 600;
+        	letter-spacing: 1.5px;
+        	color: $c-grayish-brown;
+        }
+      }
+
+      .lc-preferences__add-co-client {
+        margin-top: 8%;
+
+        .lc-preferences__co-client-message {
+          height: 68px;
+          font-family: OpenSans;
+          font-size: 12px;
+          font-weight: 600;
+          color: #888888;
+          margin-left: 30px;
+        }
+
+        .lc-generic-button--white {
+          margin-left: 30px;
+          margin-bottom: 10px;
+          border-radius: 0;
+          border-width: 0;
+          box-shadow: $form-box-shadow;
+          background-color: $c-white-three;
+          color: $c-warm-gray-two;
+          font-family: OpenSans;
+        }
+      }
+    }
+
+    .lc-preferences__form-field-radio {
+      width: 100%;
+    }
+
+    .lc-preferences__form-fields-remaining-info {
+      padding-top: 70px;
+      float: none !important;
+      .lc-preferences__password {
+        -webkit-text-security: disc;
+      }
+      .lc-preferences__form-fields-remaining-info-field-container {
+        height: 74px;
+      }
+      .lc-personal-field-title {
+        width: 250px;
+      }
+    }
+  }
+  .lc-childrens-info-container {
+    .lc-personal-details-info-form__row {
+      display: flex;
+    }
+  }
+  .lc-preferences__container-generic {
+    margin-top: 80px;
+    margin-left: 100px;
+
+    .lc-preferences__header-generic {
+      border-bottom: solid 2px $c-blue;
+      font-family: OpenSans;
+    	font-size: 24px;
+    	font-weight: 600;
+    	letter-spacing: 2px;
+    	color: $c-grayish-brown;
+      margin-bottom: 20px;
+      width: 100%;
+      padding-bottom: 8px;
+
+      .lc-preferences__fin-plan-cancel {
+        border: none;
+        display: inline;
+        font-family: OpenSans;
+        font-size: 12px;
+        font-weight: 600;
+        text-align: right;
+        float: right;
+        color: $c-blue;
+      }
+    }
+
+
+    .lc-preferences__label {
+      font-family: OpenSans;
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-align: right;
+      color: $c-grayish-brown;
+    }
+
+    .lc-preferences__content {
+      font-family: OpenSans;
+      font-size: 16px;
+      letter-spacing: 1.3px;
+      color: #464646;
+      float: left;
+      color: $c-grayish-brown;
+    }
+
+    .lc-preferences__message {
+      font-family: OpenSans;
+      font-size: 16px;
+      letter-spacing: 1.3px;
+      text-align: center;
+      color: $c-grayish-brown;
+      padding-top: 23px;
+    }
+
+    .lc-preferences__body-generic {
+      padding-left: 0;
+      .lc-preferences__small-message {
+        font-family: OpenSans;
+      	font-size: 12px;
+      	line-height: 1.17;
+      	color: $c-warm-gray-six;
+      }
+
+      .lc-preferences__body-no-data {
+        font-family: OpenSans;
+        font-size: 16px;
+        float: center;
+      }
+
+      .lc-preferences__table {
+        width: 100%;
+      }
+
+      .lc-preferences__row {
+        height: 60px;
+        .bottom {
+          height: 70px;
+        }
+
+        .lc-preferences__form-label {
+          float: right;
+          height: 30px;
+          font-family: OpenSans;
+        	font-size: 18px;
+        	font-weight: 600;
+        	letter-spacing: 1.5px;
+        	color: $c-grayish-brown;
+          &.bottom-label {
+            padding-top: 11px;
+          }
+        }
+
+        .lc-preferences__payment-form-field {
+          font-family: OpenSans;
+          font-size: 16px;
+          letter-spacing: 1.3px;
+          text-align: left;
+          .lc-preferences__payment-fields-data {
+            float: left;
+            span {
+              display: block;
+              padding-bottom: 5px;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .lc-preferences__button-container, .fin-plan-begin-button-container {
+    margin-top: 80px;
+    margin-left: 100px;
+
+    button {
+      height: 60px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+
+    .lc-generic-button--blue {
+      width: 385px;
+      float: right;
+      background-color: $c-dark-sky-blue;
+      border: 1px solid $c-dark-sky-blue;
+      color: white;
+    }
+
+    .lc-preferences__dashboard-button {
+      width: 212px;
+      border: 2px solid $c-pinkish-gray;
+    }
+  }
+  .fin-plan-begin-button-container {
+    margin-left: auto;
+    margin-top: 40px;
+    text-align: center;
+    .lc-generic-button--blue {
+      float: none;
+    }
+  }
+
+  .hide-advisor-call-information-icon {
+    margin-left: 16px;
+  }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Fisecal</title>
+    <% if (debug === false) { %>
+      <link type="text/css" rel="stylesheet" media="all" href="/css/app.<%= version %>.css" />
+    <% } %>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="https://js.stripe.com/v3/"></script>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <% if (debug === true) { %>
+      <script src="/js/main.<%= version %>.js"></script>
+    <% } else { %>
+      <script src="/js/common.<%= version %>.js"></script>
+      <script src="/js/index.<%= version %>.js"></script>
+      <% } %>
+  </body>
+
+</html>

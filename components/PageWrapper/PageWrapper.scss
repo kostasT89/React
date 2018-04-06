@@ -1,0 +1,55 @@
+@import '../../scss/config';
+@import '../../scss/colors';
+
+.lc-page-wrapper {
+  display: table;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 100%;
+
+  /*
+  * This component is table-cell aligned with the sidebar
+  * on the page. The sidebar drives the primary height of the app.
+  */
+  .lc-page-wrapper__content {
+    min-width: 1024px;
+    background-color: $c-light-gray-two;
+    display: table-cell;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /*
+  * This class restricts the content so that it does not
+  * drive the height of the app, and defers that control
+  * to the sidebar.
+  */
+  .lc-page-wrapper__restrictive-cell-wrap {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: $top-toolbar-height;
+    height: calc(100%);
+  }
+
+  /*
+  * Now that we've restricted the page contents, we need
+  * another container to scroll through that content
+  */
+  .lc-page-wrapper__scrollable-content {
+    width: calc(100% + #{$width-scrollbar});
+    height: calc(100% + #{$width-scrollbar};
+    overflow-x: scroll;
+    overflow-y: scroll;
+  }
+}
+
+/*
+* To remove auto height of data-reactroot = 100%
+*/
+.modals > div {
+  height: auto;
+}

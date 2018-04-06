@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="48px" viewBox="0 0 46 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>3CB3AF66-8B75-4D6D-B2C4-7220565CD731</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Connect" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Connect-5.0---Submitted" transform="translate(-824.000000, -712.000000)">
+            <g id="Group-11" transform="translate(328.000000, 688.000000)">
+                <g id="Group-4" transform="translate(469.000000, 0.000000)">
+                    <g id="Graph" transform="translate(27.000000, 24.000000)">
+                        <polygon id="Stroke-78" stroke="#45A8E5" points="32.5172414 42.4 38.862069 47.2 45.2068966 42.4 45.2068966 15.2 38.862069 10.4 32.5172414 15.2"></polygon>
+                        <polyline id="Stroke-80" stroke="#45A8E5" points="32.5172414 15.2 38.862069 20 45.2068966 15.2"></polyline>
+                        <path d="M38.862069,20 L38.862069,47.2" id="Stroke-83" stroke="#45A8E5"></path>
+                        <polygon id="Stroke-71" stroke="#45A8E5" points="0.793103448 42.4 7.13793103 47.2 13.4827586 42.4 13.4827586 23.2 7.13793103 18.4 0.793103448 23.2"></polygon>
+                        <polyline id="Stroke-72" stroke="#45A8E5" points="0.793103448 23.2 7.13793103 28 13.4827586 23.2"></polyline>
+                        <path d="M7.13793103,28 L7.13793103,46.4" id="Stroke-73" stroke="#45A8E5"></path>
+                        <polygon id="Stroke-74" stroke="#FFFFFF" fill="#45A8E5" points="16.6551724 42.4 23 47.2 29.3448276 42.4 29.3448276 5.6 23 0.8 16.6551724 5.6"></polygon>
+                        <polyline id="Stroke-76" stroke="#FFFFFF" fill="#45A8E5" points="16.6551724 5.6 23 10.4 29.3448276 5.6"></polyline>
+                        <path d="M23,10.4 L23,47.2" id="Stroke-77" stroke="#FFFFFF" fill="#45A8E5"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

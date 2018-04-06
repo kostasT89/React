@@ -1,0 +1,170 @@
+@import '../../scss/colors';
+@import '../../scss/config';
+
+.lc-income-summary{
+  text-align: center;
+
+
+  .lc-income-summary__content {
+    border: solid 1px rgba(150, 150, 150, 0.22);
+    margin: $page-content-margins;
+    background-color: $c-white;
+    min-width: $page-min-content-width;
+    margin-right: 35px + $width-scrollbar;
+    // subtract margins, header, and financialSnapshot height
+    min-height: $page-min-content-height;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .lc-progress-bar-group {
+    padding: 0 120px;
+    .lc-progress-bar-group__label-text, .lc-progress-bar-group__label-amount {
+      font-size: 25px;
+      font-family: OpenSans;
+    }
+  }
+
+  .lc-income-summary__link {
+    display: table-cell;
+  }
+
+  .lc-income-summary__message {
+    display: block;
+    padding-top: 70px;
+  }
+
+  .lc-income-summary__button-container {
+    margin: 65px auto 37px auto;
+    display: flex;
+    justify-content: space-between;
+
+    .lc-income-summary__link {
+      width: 30%;
+    }
+
+    .lc-generic-button {
+      max-width: 300px;
+      font-size: 16px;
+      font-family: OpenSans;
+    }
+  }
+
+  .lc-generic-button {
+    width: 100%;
+    font-weight: 700;
+    height: 60px;
+  }
+
+  .lc-row {
+    display: inline-block;
+    a {
+      color: $c-white
+    }
+  }
+
+  .lc-income-summary__header {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 600;
+    color: $c-dark-gray;
+    padding: 0px 20px;
+    font-family: OpenSans;
+  }
+
+  .lc-income-summary__subtext {
+    font-size: 14px;
+    line-height: 2.64;
+    color: $c-grayish-brown-three;
+    padding: 0px 140px;
+    margin-top: 10px;
+    font-family: OpenSans;
+  }
+
+  .lc-income-summary__text {
+    color: $c-grayish-brown-three;
+    font-size: 14px;
+    padding: 0 40px;
+    text-align: center;
+    margin: 75px 0 0 0;
+    font-family: OpenSans;
+  }
+
+  .lc-income-summary__navigation-button {
+  	text-align: center;
+    border-radius: 6px;
+    border: solid 2px $c-pinkish-gray;
+    width: 145px;
+  	height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    color: $c-warm-gray;
+    margin: 0 25px 20px 0;
+    float: right;
+  }
+
+  .lc-income-summary__progress-bar-groups {
+    margin-top: 15px;
+    padding: 0 15%;
+  }
+
+  .lc-progress-bar__meter {
+    background-color: transparent;
+  }
+
+  .lc-progress-bar-group .lc-progress-bar__meter {
+    background-image: $green-bar-gradient
+  }
+
+  .lc-income-summary__icon-boxes {
+    margin: 50px 0 90px 0;
+    padding: 0 25px;
+  }
+
+  .lc-income-summary__icon-boxes:after {
+     content: " "; /* Older browsers do not support empty content */
+     visibility: hidden;
+     display: block;
+     height: 0;
+     clear: both;
+  }
+
+  .lc-income-summary__menu {
+    display: table;
+    width: 100%;
+
+    .lc-income-summary__link {
+      width: 50%;
+      border-bottom: solid 1px $c-blue;
+    }
+
+    .lc-income-summary__link--shadow {
+      box-shadow: $menu-item-box-shadow;
+      border-bottom: solid 1px $c-transparent-gray;
+    }
+
+    .lc-generic-button {
+      border: 0px;
+      width: 100%;
+      border-radius: 0px;
+      margin: 0;
+      font-size: 24px;
+      font-weight: 600;
+      height: 70px;
+      font-family: OpenSans;
+    }
+
+    .lc-button--blue {
+      cursor: auto;
+    }
+  }
+
+  .lc-accordion {
+    margin: 45px 0 75px 0;
+    float: left;
+    width: 100%;
+    padding: 0 120px;
+  }
+
+}

@@ -1,0 +1,45 @@
+@import '../../scss/colors';
+@import '../../scss/config';
+@import '../../scss/mixins';
+.lc-summary-header-container{
+
+  .lc-finplan-summary__header {
+    margin-top: 35px;
+    font-family: OpenSans;
+    text-align: center;
+    font-size: 31px;
+    font-weight: 600;
+    color: $c-dark-gray;
+    padding: 0px 20px 20px;
+  }
+
+  .lc-finplan-summary__menu {
+    display: flex;
+    width: 100%;
+
+    .lc-finplan-summary__link {
+      width: 50%;
+      border-bottom: solid 1px $c-blue;
+    }
+
+    .lc-finplan-summary__link--shadow {
+      box-shadow: $menu-item-box-shadow;
+      border-bottom: solid 1px $c-transparent-gray;
+    }
+
+    .lc-generic-button {
+      border: 0px;
+      width: 100%;
+      max-width: 100%;
+      height: 100%;
+      border-radius: 0px;
+      margin: 0;
+      font-size: 19px;
+      font-weight: 600;
+    }
+
+    .lc-button--blue {
+      cursor: auto;
+    }
+  }
+}

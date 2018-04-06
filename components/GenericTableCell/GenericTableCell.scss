@@ -1,0 +1,65 @@
+@import '../../scss/colors';
+
+.lc-generic-table-cell {
+	display: table;
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	color: $c-grayish-brown;
+
+	&.lc-generic-table-cell--editable {
+		cursor: pointer;
+		transition: 0.25s;
+		&:hover {
+			background-color: $c-transparent-sky-blue;
+		}
+	}
+	&.lc-generic-table-cell--active-row{
+		background-color: $c-transparent-sky-blue;
+	}
+
+	.lc-generic-cell__icon {
+		float: right;
+		color: $c-grayish-brown;
+	}
+
+	.lc-fa-icon.fa-chevron-down {
+		margin-left: -50px;
+		font-weight: lighter;
+		font-size: 10px;
+	}
+
+	.lc-generic-table-cell__content {
+		display: table-cell;
+		vertical-align: middle;
+		padding-left: 8px;
+		input, select {
+			width: 98%;
+			background-color: $c-white-three;
+			border: none;
+			margin-bottom: 0px;
+			height: 37px;
+		}
+		input, input:focus,
+		select, select:focus {
+			outline: none;
+			box-shadow: outset 0 1px 2px rgba(10, 10, 10, 0.2);
+			border-bottom: 1px solid rgba(10,10,10,0.2);
+			font-size: 14px;
+		}
+		.switch.small {
+			height: 37px;
+			margin-bottom: 0px;
+			display: inline-block;
+		}
+
+		.switch-paddle,
+		.switch-paddle::after {
+			border-radius: 14px;
+		}
+
+		input:checked ~ .switch-paddle {
+			background: $c-yellow-orange;
+		}
+	}
+}

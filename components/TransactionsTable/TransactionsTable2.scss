@@ -1,0 +1,16 @@
+@import '../../scss/colors';
+@import '../../scss/config';
+
+.lc-transactions-table-2 {
+  width: 100%;
+  border: 1px solid rgba(150, 150, 150, 0.39);
+
+  .lc-generic-table-cell--col-2 {
+    color: $c-blue;
+    font-weight: 600;
+  }
+
+  .public_fixedDataTable_bottomShadow {
+    background: none;
+  }
+}

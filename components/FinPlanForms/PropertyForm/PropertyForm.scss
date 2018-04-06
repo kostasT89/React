@@ -1,0 +1,38 @@
+.lc--property-form {
+  .lc-text-area__label {
+
+  }
+  .lc-radio-group .lc-radio-group__label {
+    height: 34px;
+    position: relative;
+    bottom: 2px;
+  }
+  .lc-radio-group {
+    position: relative;
+    bottom: 11px;
+  }
+  .lc-row.row.lc-property-form__row {
+    margin-top: 15px;
+    .lc-row-tall {
+      margin-top: 5px;
+    }
+    .comments {
+      padding-top: 20px
+    }
+  }
+  .lc-input-group .lc-input-group__label {
+    margin-bottom: 3px;
+  }
+
+  .lc-select-group .lc-select-group__label {
+    margin-bottom: 3px;
+  }
+  .lc-column--buttons {
+    margin-top: 30px;
+    padding-bottom: 200px;
+    .lc-button {
+      width: 100%;
+      font-weight: bold;
+    }
+  }
+}

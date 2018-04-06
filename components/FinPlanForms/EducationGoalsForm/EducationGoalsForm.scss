@@ -1,0 +1,92 @@
+@import '../../../scss/mixins';
+@import '../../../scss/colors';
+
+.lc-education-goals-form {
+
+  .lc-education-goals-form__row {
+    margin-top: 0px;
+    .lc-comment-margin-top {
+      margin-top: 32px;
+    }
+  }
+
+  .lc-row {
+    padding: 0px;
+  }
+
+  .lc-education-goals-form__row--no-padding {
+    padding: 0px;
+  }
+
+  .lc-blank__div {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .lc-education-goals-form__button--special {
+    width: 175px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 14px;
+    color: $c-warm-gray;
+    font-weight: 600;
+    background-color: $c-white-three;
+    box-shadow: $nav-button-box-shadow;
+    margin-top: 23px;
+  }
+
+  .lc-education-goals-form__button--remove-child {
+    float: left;
+  }
+
+  .lc-education-goals-form__button--add-child {
+    float: right;
+  }
+
+  .lc-column {
+    opacity: 1;
+  }
+
+  .lc-column--hidden {
+    max-height: 0;
+    overflow: hidden;
+    float: left;
+    transition: max-height 0.5s ease-in-out;
+    width: 100%;
+  }
+
+  .lc-column--visible {
+    height: initial;
+    max-height: 400px;
+    float:left;
+    width: 100%;
+  }
+
+  .lc-column--centered {
+    text-align: center;
+  }
+
+  .column:last-child:not(:first-child),
+  .columns:last-child:not(:first-child) {
+    float: left;
+  }
+
+  .lc-text-group__text {
+    font-size: 14px;
+    color: $c-warm-gray;
+  }
+
+  .lc-column--buttons {
+    text-align: center;
+    margin-top: 43px;
+  }
+
+  .lc-checkbox-group {
+    margin-top: 20px;
+  }
+
+  .lc-select-group__text {
+    font-size: 12px;
+  }
+
+}

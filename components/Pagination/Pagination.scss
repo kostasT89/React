@@ -1,0 +1,23 @@
+@import '../../scss/colors';
+
+.lc-pagination {
+
+  li {
+    display: inline-block;
+    padding: 7px 15px;
+    color: $c-brownish-gray;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .lc-page--active {
+    background-color: $c-sunflower-yellow;
+    border-radius: 35px;
+    color: white;
+  }
+
+  .lc-page--disabled {
+    display: none;
+  }
+}

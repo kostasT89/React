@@ -1,0 +1,50 @@
+@import '../../../scss/mixins';
+@import '../../../scss/colors';
+
+.lc-income-form {
+  margin-top: 70px;
+  .lc-income-form__button--input-style {
+    width: 93%; height: 60px;
+    margin: auto;
+    cursor: pointer;
+    line-height: 60px;
+    font-size: 14px;
+    color: $c-warm-gray-two;
+    font-weight: 600;
+    background-color: $c-white-three;
+    box-shadow: $nav-button-box-shadow;
+    font-family: OpenSans;
+    &.button-left {
+      float: left;
+    }
+    &.button-right {
+      float: right;
+    }
+  }
+  .lc-active-income-info-form-button {
+    box-shadow: none;
+    color: white;
+    background-color: #46b2f0;
+  }
+  .first-button-container {
+    padding-left: 0px;
+  }
+  .second-button-container {
+    padding-right: 0px;
+  }
+  .lc-radio-group__text {
+    position: relative;
+    top: 11px;
+  }
+  .lc-fin-plan__buttons {
+    font-family: OpenSans;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    .lc-nav-button,
+    .lc-button {
+      font-family: OpenSans;
+      font-weight: 700;
+    }
+  }
+}

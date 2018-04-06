@@ -1,0 +1,168 @@
+@import '../../scss/colors';
+@import '../../scss/config';
+
+.lc-account-transactions-page {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: $c-light-gray-two;
+
+  .lc-financial-snapshot {
+    position: relative;
+    width: 112%;
+  }
+
+  .lc-row.row {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .lc-column--no-padding {
+    padding: 0;
+
+    .transaction-menu {
+      float: right !important;
+    }
+  }
+
+  .lc-transactions-table {
+    height: 100%;
+    margin-top: 5px;
+  }
+
+  .lc-pagination {
+    margin: 60px 0 50px 0;
+  }
+
+  .lc-transactions-table__message {
+    margin-top: 100px;
+    font-size: 26px;
+    color: $c-dark-gray;
+  }
+
+  .lc-account-transactions-page__content {
+    width: calc(100% - 90px); // subtract left and right margins
+    height: 100%;
+    padding-bottom: 40px;
+    margin: 40px 50px 40px 40px;
+    background-color: $c-white;
+    border: solid 1px rgba(150, 150, 150, 0.22);
+    min-width: $page-min-content-width;
+  }
+
+  .lc-account-transactions-page__header {
+    text-align: left;
+    font-weight: 600;
+    color: $c-dark-gray;
+    margin: 0 0 20px 0;
+    display: table;
+    min-height: 66px;
+  }
+
+  .lc-account-transactions-page__header-icon {
+    display: table-cell;
+    padding-right: 10px;
+    vertical-align: middle;
+    min-width: 80px;
+
+    i {
+      display: block;
+    }
+  }
+
+  .lc-account-transactions-page__header-text {
+    font-family: OpenSans;
+    font-size: 31px;
+    font-weight: 600;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+
+  .lc-account-transactions-page__text {
+    font-size: 14px;
+  	line-height: 1.64;
+  	letter-spacing: 1.2px;
+  	text-align: center;
+  	color: $c-grayish-brown;
+    margin: 0px 10% 50px 10%;
+    padding: 0;
+    max-width: 875px;
+    display: inline-block;
+  }
+
+  .lc-data-summary {
+  }
+
+  .lc-data-summary__col {
+    color: $c-warm-gray;
+    padding-bottom: 20px;
+    width: 194px;
+    padding-right: 10px;
+  }
+
+  .lc-data-summary__col:nth-of-type(1) .lc-data-summary__col-value--greater-than-zero {
+    color: $c-currency-green;
+    font-size: 33px;
+  }
+
+  .lc-investment-areachart {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+
+    .recharts-wrapper {
+      width: 100%;
+    }
+
+    .recharts-area-curve {
+      stroke-width: 2px;
+      stroke: rgba(79, 180, 255, 0.3);
+    }
+  
+    .lc-gradient-start {
+      stop-color: rgba(79, 180, 255, 0.28);
+      stop-opacity: 1;
+    }
+  
+    .lc-gradient-end {
+      stop-color: white;
+      stop-opacity: 1;
+    }
+  
+    .recharts-cartesian-axis-tick-value {
+      font-family: OpenSans;
+      font-size: 19px;
+      fill: rgba(155, 155, 155, 0.8);
+      opacity: 0.8;
+      font-weight: 600;
+    }
+  
+    .recharts-cartesian-axis-tick-line {
+      display: none;
+    }
+  
+    .recharts-cartesian-grid-vertical {
+      display: none;
+    }
+
+    .recharts-yAxis {
+      .recharts-cartesian-axis-line {
+        display: none;
+      }
+    }
+  }
+
+  .lc-data-summary__col:nth-of-type(1) .lc-data-summary__col-value--less-than-zero,
+  &.lc-account-transactions-page--loan .lc-data-summary__col:nth-of-type(1)
+  .lc-data-summary__col-value--greater-than-zero,
+  &.lc-account-transactions-page--credit-card .lc-data-summary__col:nth-of-type(1)
+  .lc-data-summary__col-value--greater-than-zero {
+    color: $c-negative-red;
+  }
+
+  .column:last-child:not(:first-child),
+  .columns:last-child:not(:first-child) {
+    float: left;
+  }
+}

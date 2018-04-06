@@ -1,0 +1,11 @@
+.logout-component {
+  margin-right: 1rem;
+  .logout-link {
+    transition: 0.25s;
+    cursor: pointer;
+    color: #70BDC5;
+    &:hover {
+      color: #93e1ea;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>253208D5-CB95-4890-AC22-E397EF686B28</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="-7.90484162%" y1="-17.4095395%" x2="88.2998512%" y2="92.2639803%" id="linearGradient-1">
+            <stop stop-color="#BEE6FF" offset="0%"></stop>
+            <stop stop-color="#45A8E5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logged-In" transform="translate(-27.000000, -21.000000)" stroke-width="3" stroke="url(#linearGradient-1)">
+            <g id="Avatar-Header" transform="translate(29.000000, 23.000000)">
+                <g id="Avatar">
+                    <circle id="Oval-2" cx="30.5" cy="30.5" r="30.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

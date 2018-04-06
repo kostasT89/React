@@ -1,0 +1,59 @@
+@import '../../scss/config';
+@import '../../scss/colors';
+
+.lc-goal-snapshot {
+  padding-top: 11px;
+  height: 100%;
+  display: inline-block;
+
+  .lc-goal-snapshot__content {
+    display: table;
+    min-width: 175px;
+    text-align: left;
+  }
+
+  .lc-goal-snapshot__header {
+    margin-top: 2px;
+    font-size: 17px;
+    color: $c-warm-gray-three;
+    font-weight: 600;
+  }
+
+  .lc-goal-snapshot__text {
+    color: $c-warm-gray-two;
+    font-size: 10px;
+    margin-left: 0px;
+    font-weight: 600;
+  }
+
+  .lc-goal-snapshot__pie-chart {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 10px;
+  }
+
+  .lc-goal-snapshot__text-container {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  @media (min-width: 1630px) {
+    .lc-goal-snapshot__content {
+      min-width: 225px;
+    }
+    .lc-goal-snapshot__header {
+      font-size: 20px;
+    }
+    .lc-goal-snapshot__text {
+      font-size: 12px;
+      margin-left: 10px;
+    }
+    .lc-goal-snapshot__pie-chart {
+      padding: 0 10px 0 30px;
+    }
+  }
+
+  .lc-red-text {
+    color: #ff7a7a;
+  }
+}

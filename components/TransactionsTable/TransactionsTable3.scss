@@ -1,0 +1,48 @@
+@import '../../scss/colors';
+@import '../../scss/config';
+
+.lc-transactions-table-3 {
+
+  .lc-transactions-table__message {
+    padding: 20px;
+  }
+
+  .lc-generic-table .fixedDataTableRowLayout_main.public_fixedDataTable_header {
+     border: solid 1px;
+     border-color:rgba(151, 151, 151, 0.38);
+  }
+
+  .lc-generic-header-cell {
+    background-color: #f9f9f9;
+  }
+
+  .lc-generic-table-cell {
+    display: block;
+
+    .fixedDataTableRowLayout_main {
+      border-bottom: 0px solid transparent;
+    }
+
+    .lc-generic-table-cell__content {
+      display: block;
+    }
+
+    .lc-generic-table-cell__content select {
+      padding: 0px;
+      height: 22px;
+    }
+
+    .lc-generic-table-cell__content div {
+      overflow:hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      padding-top: 2px;
+      color: $c-grayish-brown-three;
+    }
+  }
+
+  .public_fixedDataTableRow_highlighted,
+  .public_fixedDataTableRow_highlighted .public_fixedDataTableCell_main {
+    background-color: white;
+  }
+}

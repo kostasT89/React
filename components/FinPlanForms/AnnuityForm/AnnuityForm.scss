@@ -1,0 +1,79 @@
+@import '../../../scss/colors.scss';
+
+.lc-annuity-form {
+
+  // CSS OVERRIDE START
+  .lc-select-group,
+  .lc-select-group__label {
+    margin-bottom: 0px;
+  }
+  .lc-radio-group__label {
+    height: 35px;
+  }
+  .lc-radio-group__field-label-text {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  // CSS OVERRIDE END
+
+  .lc-annuity-form__row {
+    margin-top: 13px;
+    .lc-select-group {
+      .lc-select-group__label {
+        margin-bottom: 0px;
+      }
+    }
+  }
+  .lc-annuity-form__row--short {
+    margin-top: 8px;
+    .lc-input-group {
+      margin-top: 6px;
+    }
+  }
+  .lc-annuity-form__row--medium {
+    margin-top: 17px;
+    margin-bottom: 10px;
+    .lc-input-group {
+      margin-top: 6px;
+    }
+  }
+  .lc-annuity-form__row--bottom {
+    margin-top: 8px;
+    .lc-input-group {
+      margin-top: 6px;
+    }
+  }
+  .lc-annuity-form__row--comment {
+    margin-top: 23px;
+  }
+  .lc-annuity-form__distribution--header {
+    text-align: center;
+    margin: 0px auto 15px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    color: #888888;
+  }
+  .lc-annuity-form__distribution-group {
+    .lc-radio-group__options {
+      text-align: center;
+    }
+    .lc-radio-group__label {
+      height: 0px;
+    }
+  }
+  .lc-column--buttons {
+    margin-top: 30px;
+    padding-bottom: 200px;
+    .lc-button {
+      width: 100%;
+      font-weight: bold;
+    }
+  }
+  .lc-select-group .lc-select-group__label {
+    margin-bottom: 6px;
+  }
+  .lc-radio-group .lc-radio-group__label {
+    margin-top: -6px;
+  }
+}

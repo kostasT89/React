@@ -1,0 +1,24 @@
+@import '../../scss/colors';
+
+.lc-calendar {
+  display: inline-block;
+
+  .lc-calendar__picker {
+    display: inline-block;
+  }
+
+  .CalendarDay--selected-start,
+  .CalendarDay--selected-end,
+  .CalendarDay--selected {
+    background-color: $c-navy;
+    border-color: $c-navy;
+  }
+
+  .CalendarMonth__caption {
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: $c-navy;
+    line-height: 29px;
+  }
+}

@@ -1,0 +1,48 @@
+@import '../../scss/colors';
+
+.lc-fin-plan-page {
+  font-family: OpenSans;
+
+  .lc-fin-plan__header {
+    font-family: OpenSans;
+    margin: 35px auto 0 auto;
+    text-align: center;
+    font-size: 31px;
+    font-weight: 600;
+    color: $c-dark-gray;
+    padding: 0px 20px;
+    font-family: OpenSans;
+  }
+
+  .lc-fin-plan__subtitle {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    color: $c-warm-gray-six;
+    margin: 25px 10px 40px 10px;
+    padding: 0;
+    strong, b {
+      font-weight: 400;
+    }
+  }
+
+  .lc-fin-plan__buttons {
+    margin: 60px auto 0 auto;
+    padding: 0 15px;
+    font-weight: bold;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+
+    .lc-button--left {
+      margin-right: 90px;
+      width: 180px;
+    }
+
+    .lc-button--right {
+      margin-left: 10px;
+      width: 350px;
+    }
+  }
+}

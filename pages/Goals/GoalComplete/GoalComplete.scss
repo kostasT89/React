@@ -1,0 +1,120 @@
+@import '../../../scss/colors';
+
+.lc-goal-complete {
+  padding: 50px;
+
+  .lc-goal--title {
+    margin-top: 23px;
+    h1 {
+      width: 100%;
+      height: 42px;
+      margin-top: 30px;
+      font-family: OpenSans;
+      font-size: 29px;
+      font-weight: 600;
+      text-align: center;
+      color: #4e4e4e;
+    }
+  }
+
+  .lc-goal-complete__content {
+    background-color: #ffffff;
+    border: solid 1px rgba(151, 151, 151, 0.22);
+    letter-spacing: 1.2px;
+  }
+
+  .lc-goal-complete__image-container {
+    width: 100%;
+    height: 120px;
+    margin-top: 35px;
+  }
+
+  .lc-goal-complete__image-icon {
+    z-index: 101;
+    height: 100px;
+    background-image: url('/assets/svg/goal-icon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 24px;
+    display: inline-block;
+    text-align: center;
+    width: 77%;
+    position: absolute;
+    background-size: 78px;
+  }
+
+  .lc-goal-complete__image-oval {
+    z-index: 100;
+    height: 100px;
+    background-image: url('/assets/svg/goal-oval.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 24px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    width: 77%;
+    background-size: 100px;
+  }
+
+  .lc-goal-complete__title {
+  text-align: center;
+  }
+
+
+  .lc-goal-complete__header {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 12px;
+  }
+
+  .lc-goal-complete__alignment-table {
+    display: flex;
+    margin: auto;
+    max-width: 800px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lc-goal-complete__text {
+    width: 100%;
+    text-align: center;
+    display: table-row;
+  }
+
+  .lc-goal-complete__button-container {
+    width: 639px;
+    text-align: left;
+
+    .lc-add-more-button {
+      width: 374px;
+    }
+
+    .lc-dashboard-button {
+      width: 175px;
+    }
+  }
+
+  .lc-goal-complete__button-container .lc-button {
+    margin-top: 46px;
+    margin-bottom: 80px;
+  }
+
+  .lc-goal-complete__button-container .lc-button--blue {
+    padding: 15px 80px;
+    margin-left: 30px;
+  }
+
+  .lc-generic-button {
+    font-weight: bold;
+    height: 60px;
+    font-family: OpenSans;
+    font-size: 16px;
+  }
+
+  .lc-goal-complete__link--last {
+    float: right;
+  }
+
+}

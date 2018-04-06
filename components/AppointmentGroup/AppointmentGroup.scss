@@ -1,0 +1,39 @@
+@import '../../scss/colors';
+
+.lc-appointment-group {
+  text-align: center;
+
+  .lc-appointment {
+    display: inline-block;
+    margin: 8px 12px;
+  }
+
+  .lc-appointment__label {
+    width: 180px;
+    color: $c-white-four;
+    text-align: center;
+    margin: 0;
+    border: 1px solid $c-white-four;
+    border-radius: 8px;
+    padding: 3px 0;
+    text-align: center;
+  }
+
+  .lc-appointment__label:active,
+  .lc-appointment__label:hover,
+  .lc-appointment__label:focus,
+  .lc-appointment__input:checked + .lc-appointment__label {
+    color: $c-navy;
+    border: solid 1px $c-navy;
+  }
+
+  .lc-appointment__text {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .lc-appointment__input {
+    display: none;
+  }
+
+}

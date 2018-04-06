@@ -1,0 +1,27 @@
+@import '../../../scss/config';
+@import '../../../scss/colors';
+
+.lc-liabilities-page {
+
+  .lc-liabilities-page__content {
+    border: solid 1px rgba(150, 150, 150, 0.22);
+    margin: $page-content-margins;
+    min-height: $page-min-content-height;
+    background: white;
+    padding-bottom: 35px;
+    text-align: center;
+  }
+
+  .lc-row {
+    display: inline-block;
+    max-width: 950px;
+    width: 100%;
+  }
+
+  .lc-column--no-padding {
+    padding: 0;
+  }
+  .lc-column--buttons {
+    margin-top: 60px;
+  }
+}

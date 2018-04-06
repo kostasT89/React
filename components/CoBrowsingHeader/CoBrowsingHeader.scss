@@ -1,0 +1,17 @@
+.lc-co-browsing-header-component {
+  width: 500px; height: 50px;
+  padding-top: 10px;
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+  background: red;
+  font-weight: bold;
+  color: white;
+  .lc-co-browsing-exit {
+    width: 40px; height: 25px;
+    float: left;
+    padding-top: 2px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+}

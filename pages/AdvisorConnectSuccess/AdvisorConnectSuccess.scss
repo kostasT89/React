@@ -1,0 +1,52 @@
+@import '../../scss/colors';
+
+.lc-advisor-connect-success {
+
+  .lc-advisor-connect-success__content {
+    text-align: center;
+    border: solid 1px rgba(150, 150, 150, 0.22);
+    margin: 35px;
+    background-color: $c-white;
+    min-width: $page-min-content-width;
+    padding-bottom: 35px;
+  }
+
+  .lc-row {
+    display: inline-block;
+    width: 100%;
+
+    a {
+      color: $c-white
+    }
+  }
+
+  .lc-advisor-connect-success__header {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 600;
+    color: $c-dark-gray;
+    padding: 0px 20px;
+  }
+
+  .lc-advisor-connect-success__text1 {
+    margin-top: 30px;
+  }
+
+  .lc-advisor-connect-success__image {
+    height: 100px;
+    margin-top: 30px;
+  }
+
+  .lc-advisor-connect-success__button {
+    width: 180px;
+    height: 50px;
+    background-color: $c-dark-sky-blue;
+    border: none;
+    color: $c-white;
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+}

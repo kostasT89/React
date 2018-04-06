@@ -1,0 +1,41 @@
+@import '../../scss/colors.scss';
+
+.lc-progress-bar-group {
+  margin: 25px 0 0 0;
+  padding: 0 100px;
+
+  .lc-progress-bar-group__label {
+    text-align: center;
+    margin: 0 0 8px 0;
+  }
+
+  .lc-progress-bar-group__label-text {
+    font-size: 23px;
+    font-weight: 300;
+    color: $c-warm-gray;
+    width: 225px;
+    display: inline-block;
+  }
+
+  .lc-progress-bar-group__label-amount {
+    font-size: 23px;
+  	font-weight: 600;
+  	color: $c-blue;
+  }
+
+  .lc-progress-bar__meter-text {
+    padding: 0 0 0 40px;
+  }
+
+  &.lc-progress-bar-group--blue .progress-meter {
+    background: $blue-bar-gradient;
+  }
+
+  &.lc-progress-bar-group--green .progress-meter {
+    background: $green-bar-gradient;
+  }
+
+  &.lc-progress-bar-group--orange .progress-meter {
+    background: $orange-bar-gradient;
+  }
+}

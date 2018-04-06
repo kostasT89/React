@@ -1,0 +1,124 @@
+@import '../../../scss/colors';
+@import '../../../scss/config';
+
+.lc-select-group{
+  text-align: left;
+
+  &.lc-select-group--error {
+    .lc-select-group__select {
+      border-bottom: 2px solid $c-red;
+    }
+  }
+
+  &.lc-select-group--valid {
+    .lc-select-group__select {
+      border-bottom: 2px solid $c-tree-green;
+    }
+  }
+
+  .lc-select-group__error {
+    text-align: left;
+    font-size: 14px;
+    color: $c-red;
+  }
+
+  .lc-select-group__label {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    color: $c-warm-gray-three;
+
+    .lc-input-group__tooltip {
+      margin-left: 3px;
+    }
+
+    .lc-react-tooltip-with-icon {
+      margin-top: 0px;
+      line-height: 0.5;
+    }
+  }
+
+  .lc-select-group__select {
+    height: $form-field-height;
+    border: none;
+    border-bottom: 2px solid $c-white-four;
+    background-color: $c-white-three;
+    font-size: 14px;
+    margin-bottom: 0px;
+    color: $c-warm-gray;
+  }
+
+}
+
+.lc-select-group--large-inline {
+  margin-bottom: 10px;
+
+  .lc-select-group__container {
+    display: table;
+    width: 100%;
+    background-color: $c-light-gray-four;
+    border: 1px solid $c-white-four;
+  }
+
+  .lc-select-group__label {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    padding: 0px 20px;
+    font-size: 14px;
+  }
+
+  .lc-select-group__field {
+    display: table-cell;
+    vertical-align: middle;
+    min-width: 250px;
+    width: 40%;
+    padding: 0 25px;
+    height: $form-field-large-height;
+    background-color: transparent;
+  }
+
+  .lc-select-group__select,
+  select:focus {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 26px;
+    color: $c-dark-gray;
+    border-bottom: 0px solid transparent;
+    padding: 0 30px 0 5px;
+  }
+
+  .lc-select-group__option {
+    font-size: 16px;
+  }
+
+  .lc-select-group__subtext,
+  .lc-select-group__error,
+  .lc-select-group__warning {
+    text-align: center;
+  }
+
+  &.lc-select-group--error {
+    .lc-select-group__container {
+      background-color: $c-transparent-pink;
+    }
+    .lc-select-group__select {
+      border-bottom: 0px solid transparent;
+    }
+  }
+
+  &.lc-select-group--warning {
+    .lc-select-group__container {
+      background-color: $c-transparent-orange;
+    }
+    .lc-select-group__select {
+      border-bottom: 0px solid transparent;
+    }
+  }
+
+  &.lc-select-group--valid {
+    .lc-select-group__select {
+      border-bottom: 0px solid transparent;
+    }
+  }
+}

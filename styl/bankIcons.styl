@@ -1,0 +1,5 @@
+@import './spritesmith-generated/sprite.styl';
+
+for img in $spritesheet_sprites
+  .lc-icon--{img[9]}
+    sprite(img);

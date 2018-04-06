@@ -1,0 +1,34 @@
+/*-----------------------------------
+  CONFIG VARIABLES
+-------------------------------------*/
+$width-tablet: 600px;
+$field-icon-width: 15px;
+$sidebar-width: 290px;
+$top-toolbar-height: 50px;
+$width-scrollbar: 18px;
+
+/*-----------------------------------
+  PAGES
+-------------------------------------*/
+/*
+* We limit the width of containers so that content
+* doesn't break for tablet and mobile.
+*/
+$page-min-content-width: 600px;
+// subtract margins, header, and financialSnapshot height
+$page-min-content-height: calc(100vh - 205px);
+$page-content-margins: 35px (35px + $width-scrollbar) 0 35px;
+$page-large-table-min-height: 1500px;
+
+/*-----------------------------------
+  FORMS
+-------------------------------------*/
+$form-field-height: 45px;
+$form-field-large-height: 54px;
+$form-text-area-height: 110px;
+
+/*-----------------------------------
+  EFFECTS
+-------------------------------------*/
+$button-box-shadow: 0px 3px 10px -1px #979797;
+$menu-item-box-shadow: 0px 2px 7px -1px #626262;

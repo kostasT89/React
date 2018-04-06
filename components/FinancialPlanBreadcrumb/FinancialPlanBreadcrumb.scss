@@ -1,0 +1,90 @@
+@import '../../scss/colors';
+
+.financial-plan-breadcrumb {
+    display: flex;
+    flex-direction: row;
+
+  .breadcrumb-step {
+    flex: 1;
+    .spacer-content-wrapper {
+      display: flex;
+    }
+
+    .breadcrumb-content-wrapper {
+      flex: 0.8;
+    }
+
+    .breadcrumb-content-container {
+      height: 48px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      border: 1px solid #d7d7d7;
+      background-color: #fafafa;
+      box-shadow: 2px 2px 3px #888888;
+    }
+
+    .breadcrumb-text {
+      font-size: 12px;
+      font-weight: 600;
+      text-align: center;
+      color: #757575;
+      font-family: OpenSans;
+    }
+
+    .breadcrumb-spacer {
+      height: 1px;
+      position: relative;
+      top: 23px;
+      flex: 0.2;
+      background-color: $c-dark-sky-blue;
+    }
+
+    .breadcrumb-spacer--in-progress {
+      display: none;
+    }
+  }
+
+  .breadcrumb-step--active {
+    .breadcrumb-content-wrapper {
+       pointer-events: none;
+    }
+
+    .breadcrumb-content-container {
+      border: none;
+      box-shadow: none;
+      background-color: $c-dark-sky-blue;
+    }
+    .breadcrumb-text {
+      color: white;
+    }
+  }
+
+  .breadcrumb-step--incompleted {
+    .breadcrumb-content-wrapper {
+       pointer-events: none;
+    }
+
+    .breadcrumb-content-container {
+      background-color: $c-white;
+      box-shadow: none;
+    }
+
+    .breadcrumb-text {
+      color: $c-white-four;
+    }
+
+    .breadcrumb-spacer {
+      background-color: transparent;
+    }
+  }
+
+  .breadcrumb-step:first-child {
+    .breadcrumb-content-wrapper {
+      flex: 1;
+    }
+    .breadcrumb-spacer {
+      flex: none;
+    }
+  }
+}

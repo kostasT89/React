@@ -1,0 +1,15 @@
+.logged-out-header-component {
+  height: 240px;
+  padding: 7px 0px;
+  background: url('../../assets/png/logged-out-header.png') no-repeat;
+  background-size: cover;
+  .header-content-container {
+    width: 91%;
+    margin: auto;
+    .app-name {
+      width: 90px;
+      color: white;
+      font-size: 30px;
+    }
+  }
+}

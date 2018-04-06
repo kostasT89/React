@@ -1,0 +1,112 @@
+@import '../../../scss/mixins';
+@import '../../../scss/colors';
+
+.lc-personal-details-info-form {
+
+  .lc-co-client-row {
+    height: 236px;
+  }
+
+  .lc-co-client-row--hidden {
+    height: 0;
+    overflow: hidden;
+    float: left;
+    transition: height 0.5s ease-in-out;
+    width: 100%;
+  }
+
+  .lc-personal-details-info-form__row {
+    &:first-child {
+      margin-top: 30px;
+    }
+  }
+
+  .lc-personal-details-info-form__row--medium {
+    margin-top: 25px;
+  }
+
+  .lc-personal-details-info-form__row--large {
+    margin-top: 25px;
+  }
+
+  .lc-column {
+    opacity: 1;
+  }
+
+  .lc-column--centered {
+    text-align: center;
+  }
+
+  .column:last-child:not(:first-child),
+  .columns:last-child:not(:first-child) {
+    float: left;
+  }
+
+  .lc-radio-group__label,
+  .lc-select-group__label,
+  .lc-input-group__label {
+  	font-size: 12px;
+  	font-weight: 600;
+  	color: $c-warm-gray-five;
+    display: table;
+    width: 100%;
+  }
+
+  .lc-text-group__text {
+    font-size: 14px;
+    color: $c-warm-gray;
+  }
+
+  .lc-input-group__text,
+  .lc-radio-group__text,
+  .lc-select-group__text {
+    display: table-cell;
+    vertical-align: bottom;
+    height: 50px;
+    line-height: 20px;
+  }
+
+  .lc-personal-details-info-form__button--input-style {
+    width: 175px; height: 44px;
+    margin:16px 25px 0px 0px;
+    float: left;
+    cursor: pointer;
+    line-height: 44px;
+    font-size: 14px;
+    color: $c-warm-gray-two;
+    font-weight: 600;
+    background-color: $c-white-three;
+    box-shadow: $form-box-shadow;
+  }
+
+  .lc-add-co-client__text {
+    margin-top: 13px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #888888;
+
+  }
+  .lc-column--buttons {
+    text-align: center;
+    margin-top: 43px;
+  }
+
+  .lc-personal-form__row--no-padding {
+    width: 100%;
+    padding: 0;
+  }
+
+  .lc-checkbox-group {
+    margin-top: 20px;
+  }
+
+  .lc-fin-plan__buttons {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+    button {
+      font-size: 16px !important;
+    }
+  }
+
+}

@@ -1,0 +1,43 @@
+@import '../../scss/colors';
+@import '../../scss/mixins';
+
+.lc-transactions-list {
+  border: 1px solid $c-light-gray;
+
+  .lc-transactions-list__item:not(:last-child) {
+    border-bottom: solid 1px $c-light-gray;
+  }
+
+  .lc-transactions-list__item:nth-child(2n-1) {
+    background-color: $c-light-gray-two;
+  }
+
+  .lc-transactions-list__text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    font-size: 12px;
+    color: $c-grayish-brown;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .lc-transactions-list__item--past {
+    .lc-transactions-list__text {
+      text-decoration: line-through;
+    }
+    .lc-transactions-list__text--date,
+    .lc-transactions-list__text--currency, {
+      text-decoration: none;
+    }
+  }
+
+  .lc-transactions-list__text--date {
+    font-weight: normal;
+  }
+
+  .lc-transactions-list__text--currency {
+    color: $c-blue;
+    font-weight: normal;
+  }
+}

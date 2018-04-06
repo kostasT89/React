@@ -1,0 +1,40 @@
+@import '../../scss/colors.scss';
+
+.lc-transaction-menu {
+  float: right;
+  width: 200px;
+
+  .lc-transactions-menu__container {
+    text-align: right;
+  }
+
+  .lc-transaction-menu__button-row {
+    float: right;
+    width: 170px;
+  }
+  .lc-transaction-menu__header-button {
+    border: none;
+    height: 25px;
+    padding: 0;
+    color: $c-dark-sky-blue;
+  	font-family: OpenSans;
+  	font-size: 16px;
+  	font-weight: 600;
+  }
+  .lc-transaction-menu__header-icon {
+    padding-left: 5px;
+    color: $c-dark-sky-blue;
+  }
+  .lc-transaction-menu__content {
+    margin-right: 0px;
+    float: right;
+    width: 170px;
+  }
+
+  .lc-transaction-menu__button-container {
+    a {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+}

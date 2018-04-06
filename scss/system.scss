@@ -1,0 +1,50 @@
+body {
+  background-color: #F9F9F9;
+  height: 100%;
+  overflow: scroll !important; // For prevent Semantic UI's "overflow-x: hidden"
+}
+
+html, #app {
+  height: 100%;
+  font-family: "OpenSans", "Open Sans", "Helvetica Neue", "Arial";
+}
+
+button,
+.lc-nav-button,
+.lc-button {
+  font-family: "OpenSans", "Open Sans", "Helvetica Neue", "Arial";
+}
+
+div[data-reactroot] {
+  height: 100%;
+}
+
+.lc-icon {
+  display: inline-block;
+}
+
+.lc-container {
+  width: 100%; // required to take height of floated children
+  overflow: hidden; // required to take height of floated children
+}
+
+.column.lc-column--no-float {
+  float: none;
+}
+
+.column.lc-column--no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+// Disable number increment arrows on number inputs
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}

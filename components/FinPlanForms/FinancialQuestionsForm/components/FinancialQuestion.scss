@@ -1,0 +1,51 @@
+.lc-financial-question {
+  display:flex;
+  justify-content: flex-start;
+  align-items: center; padding: 22px 0px;
+  border-bottom: solid 1px rgba(151, 151, 151, 0.5);
+
+  .lc-financial-question__text {
+    font-family: OpenSans;
+    font-size: 14px;
+    text-align: left;
+    color: #4e4e4e;
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+  }
+
+  .lc-financial-question__check-mark {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: OpenSans;
+    background: white;
+    font-size: 20px;
+    font-weight: 600;
+    color: #45a8e5;
+    border: 3px solid #45a8e5;
+    position: relative;
+  }
+
+  .lc-financial-question__check-mark--is-checked {
+    &:before {
+      content: '\f00c';
+      color: #7ed321;
+      width: 33px;
+      display: flex;
+      justify-content: center;
+      background: white;
+      align-items: center;
+      font-family: FontAwesome;
+      height: 33px;
+      z-index: 0;
+      position: absolute;
+      top: 0px;
+      left: 1px;
+      border-radius: 50%;
+    }
+  }
+}

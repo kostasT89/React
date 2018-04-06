@@ -1,0 +1,54 @@
+@import '../../../scss/config';
+
+.lc-accounts {
+
+  .lc-accounts__content {
+    min-width: $page-min-content-width;
+    margin-right: 30px;
+
+    .lc-accounts__body {
+      background-color: #ffffff;
+      border: solid 1px rgba(150, 150, 150, 0.22);
+      width: auto;
+      margin-left: 40px;
+      margin-top: 20px;
+      margin-right: 20px;
+      height: 500px;
+    }
+  }
+  .lc-accounts__footer {
+    width: auto;
+    height: auto;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    border: solid 1px rgba(150, 150, 150, 0.22);
+    margin: 10px 20px 0 40px;
+
+    .lc-accounts__button-container {
+      padding: 40px;
+      text-align: center;
+
+      .lc-account-settings__link {
+        width: 100%;
+      }
+
+      button {
+        height: 60px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 6px;
+      }
+
+      .lc-generic-button--blue {
+        width: 385px;
+        float: right;
+        border: 1px solid $c-dark-sky-blue;
+      }
+
+      .lc-account-settings__dashboard-button {
+        width: 212px;
+        border: 2px solid $c-pinkish-gray;
+      }
+    }
+  }
+}

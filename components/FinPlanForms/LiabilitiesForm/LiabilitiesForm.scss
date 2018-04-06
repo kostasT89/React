@@ -1,0 +1,111 @@
+@import '../../../scss/colors';
+
+.lc-liabilites-form {
+  .lc-column__subtitle {
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: $c-warm-gray-six;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .lc-liabilities-form__account-list__title {
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: 600;
+    color: #4a4a4a;
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 37px;
+    margin-bottom: 20px;
+  }
+  .lc-liabilities-form__table-header {
+    font-family: OpenSans;
+    font-size: 16px;
+    text-align: center;
+    color: $c-warm-gray-six;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .lc-liabilities-form__add .lc-liabilities-form__add--right {
+    position: relative;
+  }
+  .lc-liabilities-form__add--right {
+    float: right;
+  }
+  .lc-generic-button.lc-liabilities-form__add__button {
+    width: 195px; height: 44px;
+    background-color: #fafafa;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: bold;
+    color: $c-warm-gray-three;
+    border: none;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 3px #888888;
+    padding: 0px 20px;
+    margin: 10px 0px 0px;
+    &.lc-liabilities-form__add__button--selected {
+      color: white;
+      background-color: #45a8e5;
+      box-shadow: none;
+    }
+  }
+  .lc-liabilities-form__row {
+    .columns-left {
+      float: left;
+    }
+  }
+
+  .lc-fin-plan-page__table {
+    border: 1px solid #e0e0e0;
+    max-width: 840px;
+    margin: auto;
+  }
+
+  .lc-inline-edit-table {
+
+    .fixedDataTableLayout_header.fixedDataTableRowLayout_main {
+  		border-bottom-width: 2px;
+  		border-bottom-color: $c-dark-sky-blue;
+  	}
+    .lc-generic-header-cell .lc-generic-header-cell__content {
+      vertical-align: bottom;
+      padding-bottom: 5px
+    }
+  }
+  .lc-liabilities__buttons {
+    .lc-liability-button {
+      font-family: OpenSans;
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+
+  .lc-row.row.lc-account-item {
+    display: table-row;
+    vertical-align: inherit;
+    height: 100px;
+  }
+
+  .lc-account-item-logo-container {
+    display: table-cell;
+    vertical-align: inherit;
+  }
+
+  .lc-table-body {
+    width: auto;
+    display: table-row-group;
+    vertical-align: middle;
+    border-collapse: collapse;
+  }
+
+  .lc-liabilities-form__account-list {
+    display: flex;
+    justify-content: center;
+  }
+}

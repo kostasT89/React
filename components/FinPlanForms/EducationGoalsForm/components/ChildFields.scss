@@ -1,0 +1,103 @@
+@import '../../../../scss/mixins';
+@import '../../../../scss/colors';
+
+.lc-child-fields {
+
+  .lc-children-info-wrapper {
+    height: 342px;
+  }
+
+  .lc-children-info-wrapper--remove {
+    height: 0;
+    overflow: hidden;
+    float: left;
+    transition: height 0.5s ease-in-out;
+    width: 100%;
+  }
+
+  .lc-child-fields__row {
+    margin-top: 10px;
+  }
+
+  .lc-column--left {
+    text-align: right;
+  }
+
+  .lc-column {
+    opacity: 1;
+  }
+
+  .lc-column--visible {
+    height: initial;
+    max-height: 400px;
+    float:left;
+    width: 100%;
+  }
+
+  .lc-column--centered {
+    text-align: center;
+  }
+
+  .column:last-child:not(:first-child),
+  .columns:last-child:not(:first-child) {
+    float: left;
+  }
+
+  .lc-radio-group__label,
+  .lc-select-group__label,
+  .lc-input-group__label {
+  	font-size: 12px;
+  	font-weight: 600;
+  	color: $c-warm-gray-three;
+    display: table;
+    width: 100%;
+  }
+
+  .lc-text-group__text {
+    font-size: 14px;
+    color: $c-warm-gray;
+  }
+
+  .lc-input-group__text,
+  .lc-radio-group__text,
+  .lc-select-group__text {
+    display: table-cell;
+    vertical-align: bottom;
+    height: 50px;
+  }
+
+  .lc-button {
+    width: 50%;
+    height: 44px;
+    line-height: 44px;
+    font-size: 14px;
+    color: #4a4a4a;
+    font-weight: 600;
+    background-color: $c-white-three;
+    box-shadow: $form-box-shadow;
+    margin-top: 23px;
+  }
+
+  .lc-column--buttons {
+    text-align: center;
+    margin-top: 43px;
+  }
+
+  .lc-child-fields__button {
+    display: inline-block;
+    padding: 15px 40px;
+    border-radius: 6px;
+    border: solid 2px $c-pinkish-gray;
+    font-size: 14px;
+    color: $c-warm-gray;
+    margin: 0 50px;
+  }
+
+  .lc-checkbox-group {
+    margin-top: 20px;
+  }
+
+  .lc-education-goals-form__row.lc-years-margin-top {
+    margin-top: -42px;
+  }
+}

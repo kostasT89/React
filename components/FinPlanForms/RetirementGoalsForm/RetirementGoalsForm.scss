@@ -1,0 +1,99 @@
+@import '../../../scss/mixins';
+@import '../../../scss/colors';
+
+.lc-retirement-goals-form {
+
+  .lc-retirement-goals-form__row {
+    margin-top: 23px;
+    padding: 0px;
+  }
+
+  .lc-retirement-goals-form__row--short {
+    margin-top: -20px;
+    padding: 0px;
+  }
+
+  .lc-retirement-goals-form__row--long {
+    margin-top: 50px;
+    padding: 0px;
+  }
+
+  .lc-column {
+    opacity: 1;
+  }
+
+  .lc-column--hidden {
+    max-height: 0;
+    overflow: hidden;
+    float: left;
+    transition: max-height 0.5s ease-in-out;
+    width: 100%;
+  }
+
+  .lc-column--visible {
+    height: initial;
+    max-height: 400px;
+    float:left;
+    width: 100%;
+  }
+
+  .lc-column--centered {
+    text-align: center;
+  }
+
+  .column:last-child:not(:first-child),
+  .columns:last-child:not(:first-child) {
+    float: left;
+  }
+
+  .lc-radio-group__label,
+  .lc-select-group__label,
+  .lc-input-group__label {
+  	font-size: 12px;
+  	font-weight: 600;
+  	color: $c-warm-gray-three;
+    display: table;
+    width: 100%;
+  }
+
+  .lc-text-group__text {
+    font-size: 14px;
+    color: $c-warm-gray;
+  }
+
+  .lc-input-group__text,
+  .lc-radio-group__text,
+  .lc-select-group__text {
+    display: table-cell;
+    vertical-align: bottom;
+    height: 50px;
+  }
+
+  .lc-column--buttons {
+    text-align: center;
+    clear: both;
+    padding-top: 62px;
+  }
+
+  .lc-checkbox-group {
+    margin-top: 20px;
+  }
+
+  .lc-select-group {
+    text-align: left;
+  }
+
+  .lc-select-group__field {
+    width: 100%;
+    max-width: none;
+  }
+
+  .lc-select-group__text {
+    font-size: 12px;
+  }
+
+  .lc-fin-plan__buttons {
+    margin-top: 54px;
+  }
+
+}

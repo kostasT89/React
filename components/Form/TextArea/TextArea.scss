@@ -1,0 +1,67 @@
+@import '../../../scss/config';
+@import '../../../scss/colors';
+
+.lc-text-area {
+  text-align: left;
+  min-height: 90px;
+
+  textarea {
+    resize: none;
+  }
+
+  &.lc-text-area--error {
+    .lc-text-area__field {
+      border-bottom: 2px solid $c-red;
+    }
+  }
+
+  &.lc-text-area--warning {
+    .lc-text-area__field {
+      border-bottom: 2px solid $c-tangerine;
+    }
+  }
+
+  &.lc-text-area--valid {
+    .lc-text-area__field {
+      border-bottom: 2px solid $c-tree-green;
+    }
+  }
+
+  .lc-text-area__label {
+    font-size: 12px;
+    font-weight: 600;
+    color: $c-warm-gray-three;
+  }
+
+  .lc-text-area__field {
+    height: $form-text-area-height;
+    background-color: $c-white-three;
+    border-bottom: 2px solid $c-white-four;
+    padding: 0 10px 0 10px;
+  }
+
+  .lc-text-area__input,
+  input:focus {
+    margin-top: 7px;
+    min-height: 90px;
+    font-size: 14px;
+    width: 100%;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  }
+
+  .lc-text-area__error {
+    text-align: left;
+    font-size: 14px;
+    color: $c-red;
+  }
+
+  .lc-text-area__warning {
+    text-align: left;
+    font-size: 14px;
+    color: $c-tangerine;
+  }
+
+}

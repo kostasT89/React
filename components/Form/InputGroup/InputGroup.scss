@@ -1,0 +1,176 @@
+@import '../../../scss/config';
+@import '../../../scss/colors';
+
+.lc-input-group {
+  text-align: left;
+
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: $c-warm-gray;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: $c-warm-gray;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: $c-warm-gray;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: $c-warm-gray;
+  }
+
+  &.lc-input-group--error {
+    .lc-input-group__field {
+      border-bottom: 2px solid $c-red;
+    }
+  }
+
+  &.lc-input-group--warning {
+    .lc-input-group__field {
+      border-bottom: 2px solid $c-tangerine;
+    }
+  }
+
+  &.lc-input-group--valid {
+    .lc-input-group__field {
+      border-bottom: 2px solid $c-tree-green;
+    }
+  }
+
+  .lc-input-group__label {
+    font-size: 12px;
+    font-weight: 600;
+    color: $c-warm-gray-three;
+    display: flex;
+    align-items: flex-end;
+
+    .lc-input-group__text {
+      word-wrap: break-word;
+    }
+
+    .lc-input-group__tooltip {
+      margin-left: 3px;
+    }
+
+    .lc-react-tooltip-with-icon {
+      margin-top: 0px;
+      line-height: 1.2;
+    }
+  }
+
+  .lc-input-group__field {
+    position: relative;
+    height: $form-field-height;
+    background-color: $c-white-three;
+    border-bottom: 2px solid $c-white-four;
+    padding: 0 10px 0 10px;
+  }
+
+  .lc-input-group__input,
+  input:focus {
+    margin-top: 7px;
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  }
+
+  .lc-input-group__subtext {
+    font-size: 10px;
+  	font-weight: 600;
+  	color: $c-gray;
+  }
+
+  .lc-input-group__error {
+    text-align: left;
+    font-size: 14px;
+    color: $c-red;
+  }
+
+  .lc-input-group__warning {
+    text-align: left;
+    font-size: 14px;
+    color: $c-tangerine;
+  }
+
+  .lc-input-group-cancel-icon  {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    color: $c-red;
+  }
+}
+
+/*-----------------------------------
+  STYLE OPTION #2: LARGE + INLINE
+-------------------------------------*/
+.lc-input-group--large-inline {
+  margin-bottom: 10px;
+
+  .lc-input-group__container {
+    display: table;
+    width: 100%;
+    background-color: $c-light-gray-four;
+    border: 1px solid $c-white-four;
+  }
+
+  .lc-input-group__label {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    padding: 0px 20px;
+    font-size: 14px;
+  }
+
+  .lc-input-group__field {
+    display: table-cell;
+    vertical-align: middle;
+    min-width: 250px;
+    width: 40%;
+    border-bottom: 0px solid transparent;
+    padding: 0 25px;
+    height: $form-field-large-height;
+    background-color: transparent;
+  }
+
+  .lc-input-group__input,
+  input:focus {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 26px;
+    color: $c-dark-gray;
+  }
+
+  .lc-input-group__subtext,
+  .lc-input-group__error,
+  .lc-input-group__warning {
+    text-align: center;
+  }
+
+  &.lc-input-group--error {
+    .lc-input-group__container {
+      background-color: $c-transparent-pink;
+    }
+    .lc-input-group__field {
+      border-bottom: 0px solid transparent;
+    }
+  }
+
+  &.lc-input-group--warning {
+    .lc-input-group__container {
+      background-color: $c-transparent-orange;
+    }
+    .lc-input-group__field {
+      border-bottom: 0px solid transparent;
+    }
+  }
+
+  &.lc-input-group--valid {
+    .lc-input-group__field {
+      border-bottom: 0px solid transparent;
+    }
+  }
+
+}

@@ -1,0 +1,11 @@
+@import '../../scss/config';
+
+.lc-connect-page {
+  height: calc(100% - 6px); // frame the iframe so that it doesn't produce an additional scrollbar
+  width: 100%;
+
+  iframe {
+    border-width: 0px;
+    border-color: transparent;
+  }
+}

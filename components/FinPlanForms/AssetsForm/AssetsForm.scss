@@ -1,0 +1,46 @@
+@import '../../../scss/colors.scss';
+
+.lc-column__subtitle {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: $c-warm-gray-six;
+  padding: 0px;
+  margin-top: 37px;
+  margin-bottom: 30px;
+}
+
+.lc-fin-plan-assets__header {
+  font-family: OpenSans;
+  font-size: 29px;
+  font-weight: 600;
+  text-align: center;
+  color: #4e4e4e;
+  margin-top: 40px;
+}
+
+.lc-assets-form__account-list {
+  font-family: OpenSans;
+  font-size: 12px;
+  font-weight: 600;
+  color: #4a4a4a;
+  text-align: left;
+
+}
+.lc-assets-form__account-list__title {
+  padding-left: 56px;
+}
+
+.lc-assets-form {
+  .lc-asset-button {
+    margin: 40px 10px;
+    line-height: 17px;
+    color: $c-warm-gray-three;
+  }
+  .lc-asset-button__selected {
+    color: $c-white;
+  }
+  .no-padding-columns {
+    padding-left: 0px; padding-right: 0px;
+  }
+}

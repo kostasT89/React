@@ -1,0 +1,108 @@
+@import '../../../scss/colors.scss';
+
+.lc-retirement-form {
+
+  // CSS OVERRIDE START
+  .lc-radio-group__field-label-text {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .lc-text-area__label {
+    padding-bottom: 5px;
+  }
+  // CSS OVERRIDE END
+
+  .lc-row.row.lc-retirement-form__row {
+    margin-top: 24px;
+  }
+  .lc-row.row.lc-retirement-form__row--short {
+    margin-top: 8px;
+  }
+  .lc-input-group .lc-input-group__label {
+    margin-bottom: 6px;
+  }
+
+  .lc-select-group .lc-select-group__label {
+    margin-bottom: 6px;
+  }
+  .lc-row-tall {
+    .lc-input-group__label, .lc-select-group__label { margin-bottom: 12px; padding-top: 10px; }
+  }
+  .lc-column--buttons {
+    margin-top: 40px;
+    padding-bottom: 200px;
+  }
+
+  .lc-retirement-form__distribution--header {
+    text-align: center;
+    margin: 15px auto;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    color: $c-gray;
+  }
+  .lc-retirement-form__distribution-group {
+    .lc-radio-group__options {
+      text-align: center;
+    }
+    margin-bottom: 8px;
+  }
+  .lc-file-uploader {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  .lc-file-uploader + label {
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 36px;
+    color: $c-white;
+    width: 298px;
+    height: 39px;
+    object-fit: contain;
+    border-radius: 4px;
+    background-color: $c-tangerine;
+    display: inline-block;
+  }
+
+  .lc-file-uploader:focus + label,
+  .lc-file-uploader + label:hover {
+    background-color: grey;
+  }
+  .lc-retirment-form__uploaded-file {
+    font-family: OpenSans;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    color: #3b3d40;
+    max-width: 200px;
+    text-align: left;
+
+    &:before {
+      content: '\f1c1';
+      color: $c-tangerine;
+      font-size: 14px;
+      font-family: FontAwesome;
+      margin-right: 15px;
+    }
+  }
+  .lc-fin-plan__buttons {
+    margin-top: 25px;
+  }
+  .lc-button {
+    font-weight: bold;
+  }
+  .additional-employer-contribution-text {
+    margin-left: 16px;
+
+    span {
+      font-size: 10px;
+      font-weight: 600;
+      font-family: OpenSans;
+      color: $c-gray;
+      vertical-align: top;
+    }
+  }
+}

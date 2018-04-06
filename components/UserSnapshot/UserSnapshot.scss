@@ -1,0 +1,85 @@
+.user-snapshot-component {
+  $v-snapshot-wh: 65px;
+  padding: 20px 0px 0px 20px;
+  color: white;
+  .avatar-container {
+    width: $v-snapshot-wh; height: $v-snapshot-wh;
+    .avatar-border {
+      position: absolute;
+    }
+    .user-avatar {
+      width: 45px; height: 45px;
+      margin: 10px;
+      background-color: white;
+      border-radius: 22px;
+      border: 1px solid white;
+    }
+  }
+  .name-plan-wrapper {
+    height: $v-snapshot-wh;
+    position: relative;
+    vertical-align: middle;
+    padding-top: 4px;
+    margin-left: 10px;
+    .user-name {
+      width: 230px;
+      height: 25px;
+      position: absolute;
+      font-weight: 600;
+      .lc-fa-icon {
+        position: relative;
+        width: 15px;
+        margin-left: 9px;
+      }
+      .account-dropdown {
+        width: 30px; height: 30px;
+        margin-left: 3px;
+        position: relative;
+        vertical-align: top;
+        color: #fff;
+        cursor: pointer;
+        .account-dropdown-icon {
+          position: absolute;
+          top: 6px;
+          left: 9px;
+        }
+      }
+    }
+    .financial-plan {
+      width: 155px;
+      position: relative;
+      top: 28px;
+      margin: auto;
+      height: 31px;
+    	border-radius: 8px;
+    	border: solid 1px #45a8e5;
+      .piggy-bank {
+       margin: 0px 8px;
+      }
+      .financial-plan-title {
+        font-size: 12px;
+        font-weight: 600;
+        margin-top: 4px;
+        vertical-align: bottom;
+      }
+    }
+  }
+
+  .user-wrapper {
+    position: relative;
+    vertical-align: middle;
+    padding-top: 4px;
+    margin-left: 10px;
+    .user-name {
+      width: 230px;
+      height: 25px;
+      position: absolute;
+      font-weight: 600;
+      .lc-fa-icon {
+        position: relative;
+        width: 15px;
+        margin-left: 9px;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.lookup-button-component {
+	width: 24px; height: 20px;
+	margin-left: 5px;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 6px;
+  cursor: pointer;
+  transition: 0.25s;
+  vertical-align: middle;
+	background-color: #f0f0f0;
+	color: #53bee5;
+  &:hover {
+    background-color: #c6c6c6;
+  }
+	&.generic-lookup-button {
+		float: right;
+		margin-right: 8px;
+	}
+}

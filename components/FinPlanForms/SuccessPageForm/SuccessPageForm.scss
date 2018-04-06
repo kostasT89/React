@@ -1,0 +1,32 @@
+@import '../../../scss/config';
+
+.lc-success-form {
+  .lc-success-form__title {
+    font-family: OpenSans;
+    width: 400px;
+  	height: 43px;
+  	font-size: 32px;
+  	font-weight: 600;
+  	color: #4e4e4e;
+  }
+
+  .lc-success-form__blurb {
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.25;
+    letter-spacing: 1.7px;
+    text-align: center;
+    color: #464646;
+    margin-top: 20px;
+  }
+
+  .lc-success-form__image-container {
+    z-index: 101;
+    height: 150px;
+    padding-top: 20px;
+    background-image: url('/assets/svg/np_success-browser.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

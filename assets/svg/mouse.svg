@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="59px" viewBox="0 0 27 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>A706A64A-C68C-41CF-BE56-F9AFBCE6E069</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Login" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Splash-Demo-1" transform="translate(-712.000000, -757.000000)">
+            <g id="Mouse" transform="translate(712.000000, 757.000000)">
+                <g id="Capa_1">
+                    <path d="M13.5,59 L13.5,59 C6.075,59 0,52.925 0,45.5 L0,20.5 C0,13.075 6.075,7 13.5,7 L13.5,7 C20.925,7 27,13.075 27,20.5 L27,45.5 C27,52.925 20.925,59 13.5,59 L13.5,59 Z" id="Shape" fill="#E7ECED"></path>
+                    <path d="M26.866,18.509 C23.946,18.605 21.6,21.784 21.6,25.7 C21.6,29.676 24.018,32.9 27,32.9 L27,20.3 C27,19.692 26.945,19.097 26.866,18.509 L26.866,18.509 Z" id="Shape" fill="#AFB6BB"></path>
+                    <path d="M0.134,18.509 C0.055,19.097 0,19.692 0,20.3 L0,32.9 C2.982,32.9 5.4,29.676 5.4,25.7 C5.4,21.784 3.054,18.605 0.134,18.509 L0.134,18.509 Z" id="Shape" fill="#AFB6BB"></path>
+                    <circle id="Oval" fill="#FFFFFF" cx="13.75" cy="19.25" r="2.25"></circle>
+                    <path d="M15,7 L13,7 C13,5.346 11.654,4 10,4 C7.794,4 6,2.206 6,0 L8,0 C8,1.103 8.897,2 10,2 C12.757,2 15,4.243 15,7 L15,7 Z" id="Shape" fill="#CBD4D8"></path>
+                    <path d="M15.812,49.481 C15.292,49.105 14.901,48.537 14.832,47.899 C14.812,47.716 14.815,47.538 14.837,47.366 C14.931,46.645 14.207,46.038 13.526,46.292 C13.033,46.476 12.496,46.831 11.897,47.452 C11.339,48.03 10.994,48.786 11,49.59 C11.014,51.476 12.548,53 14.437,53 C15.647,53 16.704,52.373 17.311,51.427 C17.697,50.825 17.327,50.063 16.635,49.885 C16.374,49.817 16.1,49.69 15.812,49.481 L15.812,49.481 Z" id="Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

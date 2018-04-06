@@ -1,0 +1,148 @@
+@import '../../scss/colors';
+@import '../../scss/config';
+
+.lc-finance-comparison-accordion {
+  font-size: 18px;
+  color: $c-grayish-brown-three;
+  //border-top: 1px solid rgba(150, 150, 150, 0.39);
+
+  .lc-finance-comparison-date_row {
+    height: 44px;
+    padding-top: 20px;
+    border-top: none;
+    .column, .columns {
+      &:not(:last-child) {
+        border-right: none;
+      }
+    }
+  }
+
+  .lc-finance-comparison-accordion__section-title{
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 45px;
+    text-align: left;
+    background-color: $c-light-gray-five;
+    border: 1px solid rgba(150, 150, 150, 0.39);
+    font-weight: 600;
+    color: $c-black;
+  }
+
+  .lc-accordion-title__content {
+    border: 1px solid rgba(150, 150, 150, 0.39);
+    border-top: 0px;
+    height: 45px;
+  }
+
+  .column, .columns {
+    padding-left: 0px;
+    padding-right: 0px;
+    &:not(:last-child) {
+      border-right: 1px solid rgba(150, 150, 150, 0.39);
+    }
+  }
+
+  .lc-accordion-item__title{
+    cursor: pointer;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .lc-accordion-item__title--disabled {
+    cursor: default;
+  }
+
+  .lc-accordion-item__text {
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 45px;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  a {
+    .lc-accordion-item__text {
+      color: $c-grayish-brown-three;
+    }
+  }
+
+  .lc-accordion-item__checkbox {
+    margin-left: 10px;
+  }
+
+  .lc-accordion-item__text--left-align {
+    text-align: left;
+    width: 100%;
+    padding-left: 54px;
+  }
+
+  .lc-fa-icon {
+    color: rgba(108, 108, 108, 0.71);
+  }
+
+  .fa-chevron-up {
+    display: inline;
+  }
+
+  .fa-chevron-down {
+    display: none;
+  }
+
+  .lc-addcordion-header__text {
+    padding-left: 25px;
+  }
+
+  .lc-transactions-table {
+    height: auto;
+  }
+
+  .lc-triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-right: 15px solid $c-yellow-orange;
+    border-bottom: 8px solid transparent;
+
+    &.lc-disable {
+      border-right: 15px solid $c-warm-gray-six;
+    }
+  }
+
+  .lc-triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 15px solid $c-yellow-orange;
+    border-bottom: 8px solid transparent;
+
+    &.lc-disable {
+      border-left: 15px solid $c-warm-gray-six;
+    }
+  }
+
+  .lc-triangle-right .lc-disable {
+    border-left: 15px solid $c-warm-gray-six;
+  }
+
+  .lc-date-header {
+    position: relative;
+
+    a {
+      position: absolute;
+      top: 16px;
+
+      &.lc-left {
+        left: 0;
+      }
+
+      &.lc-right {
+        right: 0;
+      }
+    }
+  }
+
+  .lc-accordion-item__title[aria-expanded="true"] {}
+}

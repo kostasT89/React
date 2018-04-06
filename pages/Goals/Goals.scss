@@ -1,0 +1,229 @@
+@import '../../scss/config';
+@import '../../scss/colors';
+
+.lc-goal {
+  height: 100%;
+
+  .lc-select-group .lc-select-group__select {
+    background-color: transparent;
+  }
+
+  .lc-goal__content {
+    border: solid 1px rgba(150, 150, 150, 0.22);
+    margin: $page-content-margins;
+    margin-right: 35px + $width-scrollbar;
+    background-color: $c-white;
+    min-width: $page-min-content-width;
+    min-height: $page-min-content-height;
+    padding-bottom: 35px;
+    text-align: center;
+  }
+
+  .column:last-child:not(:first-child),
+  .columns:last-child:not(:first-child) {
+    float: none;
+  }
+
+  .lc-row {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .lc-column--buttons {
+    margin-bottom: 25px;
+    margin-top: 9px;
+    text-align: left;
+  }
+
+  .lc-goal-repayment-fields .lc-column--buttons {
+    text-align: center;
+  }
+
+  .lc-column--buttons .lc-button {
+    margin-top: 50px;
+    width: 220px;
+  }
+
+  .lc-column--buttons .lc-button--blue {
+    width: 300px;
+  }
+
+  .lc-button--right {
+    float: right;
+  }
+
+  .lc-button {
+    padding: 0px 40px;
+    height: 60px;
+    font-size: 16px;
+    color: $c-warm-gray;
+    background-color: transparent;
+    border: 2px solid $c-pinkish-gray;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+
+  .lc-button--option {
+    margin-top: 15px;
+    margin-right: 80px;
+  }
+
+  .lc-button--option:last-child {
+    margin-right: 0px;
+  }
+
+  .lc-button--blue {
+    background-color: $c-dark-sky-blue;
+    border: 2px solid $c-dark-sky-blue;
+    color: $c-white;
+    margin: 60px 0 0 80px;
+    padding: 15px 75px;
+  }
+
+  .lc-button--option {
+    padding: 0;
+    width: 173px;
+    text-align: center;
+    height: 46px;
+    font-size: 14px;
+    background-color: $c-white-three;
+    box-shadow: $button-box-shadow;
+    border-radius: 0px;
+    border: 0px solid transparent;
+    border-bottom: 1px solid $c-gray;
+    color: $c-warm-gray-two;
+    font-weight: 600;
+    font-family: OpenSans;
+  }
+
+  .lc-button--primary {
+    background-color: $c-dark-sky-blue;
+    color: $c-white;
+    box-shadow: none;
+    border-bottom: 0px solid transparent;
+  }
+
+  .lc-goal__header {
+    font-family: OpenSans;
+    font-size: 31px;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 600;
+    color: $c-dark-gray;
+    padding: 0px 20px;
+  }
+
+  .lc-goal__form {
+    padding: 30px 60px;
+  }
+
+  .lc-input-group {
+    margin-bottom: 10px;
+  }
+
+  .lc-input-group--no-bottom-margin {
+    margin-bottom: 0px;
+  }
+
+  .lc-input-group--last {
+    .lc-input-group__container {
+      background-color: $c-transparent-sky-blue-two;
+    }
+  }
+
+  .lc-input-group--first {
+    margin-bottom: 12px;
+    .lc-input-group__subtext,
+    .lc-input-group__subtext2 {
+      padding-left: 20px;
+    }
+  }
+
+  .lc-input-group--odd,
+  .lc-select-group--odd {
+    .lc-input-group__container,
+    .lc-select-group__container {
+      background-color: $c-light-gray-three;
+    }
+  }
+
+  h3 {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    margin: 20px 0 15px 0;
+    color: $c-warm-gray-four;
+  }
+
+  .lc-hr {
+    background-color: $c-white;
+    border: 0px solid transparent;
+    border-top: 1px dashed $c-white-four;
+    margin: 32px 0px 28px 0px;
+  }
+
+  .lc-hr--transparent {
+    margin: 0;
+    height: 10px;
+    border: 0px solid transparent;
+  }
+
+  .lc-hr--transparent-narrow {
+    margin: 0;
+    height: 5px;
+    border: 0px solid transparent;
+  }
+
+  .lc-input-group--disabled {
+    .lc-input-group__container,
+    .lc-select-group__container {
+      border: none;
+      background-color: white;
+    }
+  }
+
+  input:disabled,
+  input[readonly],
+  textarea:disabled,
+  textarea[readonly] {
+    cursor: auto;
+  }
+
+  .lc-input-group .lc-input-group__label {
+    font-weight: normal;
+  }
+
+  .lc-input-group--green .lc-input-group__input {
+    color: $c-currency-green;
+  }
+
+  .lc-input-group--red .lc-input-group__input{
+    color: $c-negative-red;
+  }
+
+  .lc-input-group--bold .lc-input-group__input,
+  .lc-input-group--bold .lc-input-group__text {
+    font-weight: 700;
+  }
+
+  .lc-input-group--last {
+    .lc-input-group__text { font-size: 19px; }
+    .lc-input-group__input {
+      font-size: 38px;
+      height:42px;
+      font-weight: 600;
+    }
+    .lc-input-group__container { margin-bottom: 5px; }
+  }
+
+  .lc-error {
+    font-style: italic;
+    font-size: 13px;
+    color: $c-warm-gray-four;
+  }
+
+  .lc-column--margin-bottom {
+    margin-bottom: 0px;
+  }
+
+}

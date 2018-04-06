@@ -1,0 +1,106 @@
+.lc-account-item {
+  width: 100%;
+  // max-width: 600px;
+  margin: 0 auto;
+  border: 1px rgba(97,97,97,0.2) solid;
+  border-bottom: none;
+  padding: 10px;
+  background-color: rgba(233,233,233,0.14);
+  display: table-row;
+  vertical-align: middle;
+
+  &:last-child {
+    border-bottom: 1px rgba(97,97,97,0.2) solid;
+  }
+  .lc-account-item-logo-container {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .lc-account-item__image {
+    display: table-cell;
+    &.lc-icon--default {
+      width: 40px;
+      height: 66px;
+    }
+  }
+  .lc-account-item__info {
+    display: table-cell;
+    min-width: 350px;
+    padding-left: 10px;
+    padding-right: 40px;
+    vertical-align: middle;
+    h1 {
+      font-family: OpenSans;
+      font-size: 14px;
+      text-align: left;
+      color: #4e4e4e;
+      padding: 0px;
+      margin: 0px;
+    }
+    p {
+      font-family: OpenSans;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: left;
+      color: #4e4e4e;
+      padding: 0px;
+      margin: 0px;
+      margin-top: 6px;
+    }
+  }
+
+  .lc-saving-goal-account-item_info {
+    width: 86%;
+    display: flex;
+    padding: 0 20px;
+    padding-left: 30px;
+    color: rgba(70,70,70,0.8);
+
+    h1 {
+      font-family: OpenSans;
+      font-size: 14px;
+      text-align: left;
+      padding: 0px;
+      margin: 0px;
+      width: 85%;
+      font-weight: 400;
+    }
+    p {
+      font-family: OpenSans;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: left;
+      padding: 0px;
+      margin: 0px;
+      width: 15%;
+      font-weight: 400;
+    }
+    .bold-text {
+      font-weight: bold;
+    }
+  }
+  .lc-account-item__switch {
+    display: table-cell;
+    width: 60px;
+    vertical-align: middle;
+  }
+}
+
+.lc-select-goal-account .lc-account-item {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  height: 55px;
+}
+
+.lc-row .row .lc-account-item {
+  display: flex;
+  align-items: center;
+}
+
+.lc-select-goal-account .lc-saving-goal {
+  flex-direction: row-reverse;
+}

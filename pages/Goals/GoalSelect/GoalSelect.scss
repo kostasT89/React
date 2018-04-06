@@ -1,0 +1,114 @@
+@import '../../../scss/config';
+
+.lc-goal-select {
+
+  .lc-goal-select__container {
+    margin: 35px 35px 25px 35px;
+    background-color: #ffffff;
+    border: solid 1px rgba(#969696, 0.22);
+  }
+
+  .lc-goal-select__buttons-container {
+    margin: 0 30px;
+  }
+
+  .lc-column.columns {
+    padding: 0 5px 10px 5px;
+  }
+
+  .lc-goal-select__title {
+    width: 100%;
+    font-family: OpenSans;
+    font-size: 29px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 40px;
+    color: #4e4e4e;
+  }
+
+  .lc-goal-select__content {
+      margin: 45px auto 16px;
+      width: 100%;
+      padding: 0px 24px;
+      font-family: OpenSans;
+      font-size: 20px;
+      font-weight: 300;
+      text-align: center;
+      color: $c-warm-gray;
+      line-height: 1.4;
+      .lc-goal-second-message {
+        margin-top: 24px;
+      }
+  }
+
+  .lc-goal-select__link {
+    width: 100%;
+    border: solid 1px rgba(#969696, 0.22);
+    background-color: #ffffff;
+    height: 148px;
+    padding: 0;
+    display: block;
+    letter-spacing: 2.1px;
+    &:hover {
+      border-bottom: solid 4px #45a8e5;
+      text-shadow: 0 0 #45a8e5, 0 0 .65px #45a8e5;
+    }
+  }
+
+  .lc-goal-select__link--left {}
+
+  .lc-goal-select__link--right {}
+
+  .lc-goal-select__goal {
+    height: 150px;
+    width: 100%;
+    float: left;
+    font-family: OpenSans;
+    font-size: 25px;
+    letter-spacing: 2.1px;
+    vertical-align: middle;
+    text-align: center;
+    position: center;
+    color: rgba(#000000, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lc-goal-select__goal:hover > .lc-goal-select__goal-title {
+    color: #45a8e5;
+    text-shadow: 0 0 #45a8e5, 0 0 .65px #45a8e5;
+  }
+
+  .lc-goal-select__goal-title {
+    color: black;
+  }
+
+  .lc-goal-select__goal-savings {
+    background-image: url('/assets/png/goalIcons/savings.png');
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .lc-goal-select__goal-investment {
+    background-image: url('/assets/png/goalIcons/investment.png');
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .lc-goal-select__goal-credit-card {
+    background-image: url('/assets/png/goalIcons/credit-card.png');
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .lc-goal-select__goal-loan {
+    background-image: url('/assets/png/goalIcons/loan.png');
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

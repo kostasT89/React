@@ -1,0 +1,130 @@
+@import '../../../scss/colors.scss';
+.lc-fin-plan-bills-page {
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: $c-light-gray-two;
+  padding: 40px;
+  position: relative;
+
+  .lc-fin-plan-bills-page__content {
+    width: 100%; height: auto;
+    background-color: $c-white;
+    border: solid 1px rgba(150, 150, 150, 0.22);
+    min-width: $page-min-content-width;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    position: relative;
+  }
+
+  .lc-row {
+    display: inline-block;
+    max-width: 950px;
+    width: 100%;
+
+    a {
+      color: $c-white
+    }
+  }
+
+  .lc-fin-plan-page__table.lc-fin-plan-bills-page__other-expense-table {
+    max-width: 840px;
+  }
+
+  .lc-column--no-padding {
+    padding: 0;
+  }
+
+  .lc-fin-plan-bills-page__header {
+    margin-bottom: 20px;
+  }
+
+  .lc-transactions-table {
+    position: absolute;
+    left: 0px;
+  }
+
+  .lc-fin-plan-bills-page__other-expense {
+    display: flex;
+    padding-left: 75px;
+    .lc-generic-button {
+      border: none;
+      padding: 0;
+      font-family: OpenSans;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;
+      color: #45a8e5;
+      position: relative;
+      top: -50px;
+    }
+  }
+
+  .lc-fin-plan-bills-page__other-expense-table {
+    border: 1px solid $c-light-gray;
+    .fixedDataTableLayout_header.fixedDataTableRowLayout_main {
+      border-bottom-width: 2px;
+      border-bottom-color: $c-dark-sky-blue;
+    }
+  }
+
+  .lc-fin-plan-bills-page__other-title {
+    font-family: OpenSans;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 1.9px;
+    text-align: left;
+    color: #464646;
+    margin: 60px 0px 6px 12px;
+  }
+
+  .lc-fin-plan-page__table {
+    max-height: 750px;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .lc-fin-plan-bills__buttons {
+    margin-top: 50px;
+  }
+
+  .lc-fin-plan-bills-page__text.lc-fin-plan__subtitle {
+    margin-top: 0px;
+  }
+
+  .lc-comments-title {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    color: #888888;
+    padding: 11px 8px 11px 8px;
+  }
+
+  .lc-comments-content {
+    display: flex;
+    justify-content: center;
+    height: 110px;
+    background-color: #FAFAFA;
+    border-bottom: 2px solid #D7D7D7;
+    padding: 0 10px 0 10px;
+  }
+
+  .lc-comments-content-textarea {
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    font-size: 14px;
+    min-height: 90px;
+    background-color: transparent;
+    resize: none;
+  }
+
+  .lc-row-comments {
+    max-width: 840px;
+  }
+}

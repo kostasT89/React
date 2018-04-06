@@ -1,0 +1,12 @@
+@import '../../scss/colors';
+@import '../../scss/config';
+
+.lc-transactions-table {
+  // height: 110vh;
+  width: 100%;
+
+  .lc-generic-table-cell--col-2 {
+    color: $c-blue;
+    font-weight: 600;
+  }
+}

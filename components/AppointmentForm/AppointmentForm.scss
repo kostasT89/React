@@ -1,0 +1,92 @@
+@import '../../scss/colors';
+.lc-appointment-form {
+
+  >.lc-column {
+    padding-top: 0px;
+  }
+
+  .lc-input-group {
+    width: 330px;
+    display: inline-block;
+
+    .lc-input-group__label {
+      text-align: left;
+    }
+  }
+
+  .lc-appointment-form__input-group {
+    padding-left: 60px;
+    padding-top: 10px;
+
+    .column:last-child:not(:first-child),
+    .columns:last-child:not(:first-child) {
+      float: left;
+    }
+
+    input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0 30px $c-white-three inset;
+    }
+  }
+
+  .lc-column--left {
+    text-align: right;
+  }
+
+  .lc-column--right {
+    text-align: left;
+
+    &.input-field {
+      @media (min-width: 1300px) {
+        padding-left: 15px;
+      }
+      @media (min-width: 1350px) {
+        padding-left: 25px;
+      }
+      @media (min-width: 1375px) {
+        padding-left: 31px;
+      }
+      @media (min-width: 1410px) {
+        padding-left: 45px;
+      }
+    }
+  }
+
+  .lc-column--buttons {
+    text-align: center;
+    padding-right: 55px;
+  }
+
+  .lc-button-container {
+    padding-top: 54px;
+    
+    button {
+      margin-left: 0px;
+    }
+  }
+
+  .lc-appointment-form__button {
+    display: inline-block;
+    padding: 15px 40px;
+  	border-radius: 6px;
+  	border: solid 2px $c-pinkish-gray;
+    font-size: 14px;
+    font-family: OpenSans;
+    font-weight: 900;
+    color: $c-warm-gray;
+    margin: 0 45px;
+  }
+
+  .lc-appointment-form__button--submit {
+    background-color: $c-dark-sky-blue;
+    color: white;
+    border: 2px solid $c-dark-sky-blue;
+    width: 300px;
+    font-weight: 900;
+    font-family: OpenSans;
+  }
+
+  .lc-appointment-form__button[disabled] {
+    background-color: $c-disabled-dark-sky-blue;
+    border: 2px solid $c-disabled-dark-sky-blue;
+  }
+}

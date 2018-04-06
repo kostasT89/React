@@ -1,0 +1,10 @@
+.vertical-divider-component {
+  position: relative;
+  height: 2rem;
+  .divider {
+    width: 97%;
+    margin: 1rem auto;
+    height: 2px;
+    background-color: #e3e3e3;
+  }
+}

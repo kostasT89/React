@@ -1,0 +1,52 @@
+@import '../../scss/colors';
+
+.lc-generic-button {
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 6px;
+  border: solid 2px $c-pinkish-gray;
+  font-size: 14px;
+  color: $c-warm-gray;
+  margin: 0;
+
+  &[type='text'] {
+    height: 48px;
+  }
+
+  &.lc-button--hide {
+    display: none;
+  }
+
+  &.lc-button--blue {
+    background-color: $c-dark-sky-blue;
+    color: white;
+    border: 2px solid $c-dark-sky-blue;
+  }
+
+  &.lc-button--nightsky-blue {
+    background-color: $c-night-sky-blue;
+    color: white;
+    border: 2px solid $c-night-sky-blue;
+  }
+
+  &.lc-button--blue[disabled],
+  &.lc-button--blue-secondary[disabled] {
+    background-color: $c-disabled-dark-sky-blue;
+    border: 2px solid $c-disabled-dark-sky-blue;
+  }
+
+  &.lc-button--blue-secondary {
+    background-color: $c-night-sky-blue;
+    border: 2px solid $c-night-sky-blue;
+    color: white;
+  }
+
+  &.lc-fin-plan-button--primary {
+    width: 375px;
+    margin: 0px 32px;
+  }
+
+  &.lc-fin-plan-button--secondary {
+    width: 220px;
+  }
+}

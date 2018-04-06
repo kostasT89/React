@@ -1,0 +1,24 @@
+.header .header-text {
+	color: #4e4e4e !important;
+    font-size: 29px !important;
+    font-weight: 600;
+    font-family: "Open Sans", "Helvetica Neue", "Arial";
+}
+
+.icon-tick-success {
+    background: url(http://fisecal-dev.herokuapp.com/assets/svg/piggy-bank.svg) no-repeat !important;
+}
+
+.flContainer ul.tabs .listElement {
+	text-transform: none !important;
+}
+
+.button.secondary, .button-yodlee.secondary,
+.button.primary, .button-yodlee.primary,
+.button {
+	text-transform: none;
+ }
+
+.siteList .site-item .favicon img {
+	text-indent: -9999px;
+}

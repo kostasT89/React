@@ -1,0 +1,50 @@
+@import '../../scss/colors';
+
+.lc-login-form {
+
+  .lc-field {
+    .lc-field__icon {
+      color: $c-icon-gray;
+    }
+  }
+
+  .lc-login-form__button-container {
+    text-align: center;
+    padding: 15px 12px 0px 12px;
+
+    .lc-login-form__button {
+      width: 100%;
+      border-radius:5px;
+      background-color: $c-dark-sky-blue;
+      font-size: 13px;
+    	font-weight: 600;
+    	font-style: normal;
+    	font-stretch: normal;
+    	line-height: 1.0;
+    	letter-spacing: 0.4px;
+    	text-align: center;
+    	color: #ffffff;
+    }
+  }
+  .lc-forgot-password-container {
+    cursor: pointer;
+    color: #8dcdf5;
+    font-size: 14px;
+    margin-left: 16px;
+  }
+
+  .lc-recaptcha-overlay {
+    width: 100%; height: 90px;
+    padding-top: 7px;
+    position: absolute;
+    text-align: center;
+    opacity: 0.7;
+    font-size: 21px;
+    color: black;
+    background: gray;
+  }
+
+  .g-recaptcha {
+    margin: 14px 20px;
+  }
+}

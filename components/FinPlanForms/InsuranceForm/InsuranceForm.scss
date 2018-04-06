@@ -1,0 +1,66 @@
+.lc-insurance-form {
+  &.lc-insurance-form--padding {
+    padding: 0px 27px;
+  }
+  .lc-row {
+    margin-top: 28px;
+  }
+  .lc-insurance-button {
+    width: 318px;
+    height: 45px;
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 40px;
+    background-color: #fafafa;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: bold;
+    color: #4a4a4a;
+    border: none;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 3px #888888;
+    &.lc-insurance-button__selected {
+      color: white;
+      background-color: #46b2f0;
+      box-shadow: none;
+    }
+  }
+  .lc-insurance-form__row__comments {
+    .lc-input-group .lc-input-group__field {
+      height: 110px;
+    }
+  }
+  .lc-column--buttons {
+    margin: 75px auto 0px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    .lc-generic-button {
+      width: 100%;
+    }
+    .lc-button--white {
+      width: 180px;
+      margin-right: 28px;
+    }
+    .lc-button--blue {
+      width: 350px;
+      margin-left: 10px;
+    }
+  }
+  .lc-column--buttons__form {
+    width: 100%;
+    font-weight: bold;
+  }
+  .lc-button--white {
+    width: 180px;
+  }
+  .lc-button--blue-secondary {
+    width: 250px;
+  }
+  .lc-button--blue--primary {
+    width: 200px;
+  }
+}

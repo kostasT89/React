@@ -1,0 +1,21 @@
+  .lc-assets-form__account-list {
+    display: flex;
+    justify-content: center;
+
+    .lc-row.row.lc-account-item {
+      display: table-row;
+      vertical-align: inherit;
+    }
+  
+    .lc-account-item-logo-container {
+      display: table-cell;
+      vertical-align: inherit;
+    }
+  
+    .lc-table-body {
+      width: auto;
+      display: table-row-group;
+      vertical-align: middle;
+      border-collapse: collapse;
+    }
+  }

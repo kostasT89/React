@@ -1,0 +1,38 @@
+@import '../../../scss/colors';
+.SingleDatePickerInput {
+  background: none;
+  border: none;
+  .DateInput {
+    background: none;
+    padding: 8px 0px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .DateInput__display-text--focused  {
+    color: inherit;
+    background: none;
+    font-size: 14px;
+    font-weight: 300;
+    border: none;
+  }
+  .DateInput__input[readonly] {
+    user-select: initial;
+    cursor: pointer;
+  }
+
+}
+
+.CalendarDay--selected-start,
+.CalendarDay--selected-end,
+.CalendarDay--selected {
+  background-color: $c-navy;
+  border-color: $c-navy;
+}
+
+.CalendarMonth__caption {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  color: $c-navy;
+  line-height: 29px;
+}

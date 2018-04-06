@@ -1,0 +1,135 @@
+@import '../../../scss/mixins';
+@import '../../../scss/colors';
+
+.lc-other-income-sources-form {
+
+  .lc-other-income-sources-form__row {
+    margin-top: 23px;
+    padding: 0px;
+  }
+
+  .small-12 {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+
+  .lc-column__toggle-section__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 53px;
+    border-radius: 7px;
+    border: solid 1px #d7d7d7;
+    padding: 18px 13px;
+    margin-top: 22px;
+    .switch {
+      margin-bottom:  0px;
+      margin-right: 15px;
+      display: flex;
+      align-items: center;
+
+      input:checked ~ .switch-paddle::after {
+        left: 24px;
+      }
+    }
+    .switch-paddle {
+      height: 25px;
+      width: 48px;
+      &::after {
+        width: 21px;
+        height: 21px;
+        top: 2px;
+        box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    &.lc-column__toggle-section__wrapper--checked {
+      border: solid 1px #fdb702;
+      .lc-column__toggle-section__label {
+        color: #4a4a4a;
+      }
+    }
+    .lc-column__toggle-section__label {
+      font-family: OpenSans;
+      font-size: 12px;
+      font-weight: 600;
+      text-align: left;
+      color: #888888;
+    }
+  }
+
+  .lc-column {
+    opacity: 1;
+  }
+
+  .lc-column--hidden {
+    max-height: 0;
+    overflow: hidden;
+    float: left;
+    transition: max-height 0.5s ease-in-out;
+    width: 100%;
+  }
+
+  .lc-column--visible {
+    height: initial;
+    max-height: 400px;
+    float:left;
+    width: 100%;
+  }
+
+  .lc-column--centered {
+    text-align: center;
+  }
+
+  .column:last-child:not(:first-child),
+  .columns:last-child:not(:first-child) {
+    float: left;
+  }
+
+  .lc-radio-group__label,
+  .lc-select-group__label,
+  .lc-input-group__label {
+    font-size: 12px;
+    font-weight: 600;
+    color: $c-warm-gray-three;
+    display: table;
+    width: 100%;
+  }
+
+  .lc-text-group__text {
+    font-size: 14px;
+    color: $c-warm-gray;
+  }
+
+  .lc-input-group__text,
+  .lc-radio-group__text,
+  .lc-select-group__text {
+    display: table-cell;
+    vertical-align: bottom;
+    height: 50px;
+  }
+
+  .lc-column--buttons {
+    text-align: center;
+    clear: both;
+    padding-top: 62px;
+  }
+
+  .lc-checkbox-group {
+    margin-top: 20px;
+  }
+
+  .lc-select-group {
+    text-align: left;
+  }
+
+  .lc-select-group__field {
+    width: 100%;
+    max-width: none;
+  }
+
+  .lc-select-group__text {
+    font-size: 12px;
+  }
+
+}

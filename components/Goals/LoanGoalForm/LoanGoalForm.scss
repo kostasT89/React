@@ -1,0 +1,19 @@
+@import '../../../scss/colors';
+
+.lc-loan-goal-form {
+  .lc-input-group--first {
+    .lc-input-group__label {
+      font-weight: 600;
+      color: $c-warm-gray-five;
+      padding-left: 5px;
+    }
+
+    .lc-input-group__subtext {
+      font-weight: 400;
+    }
+  }
+
+  .lc-input-group__subtext {
+    color: $c-warm-gray-four;
+  }
+}

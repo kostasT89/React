@@ -1,0 +1,84 @@
+@import '../../scss/colors';
+@import '../../scss/config';
+
+.lc-finance-accordion {
+  font-size: 16px;
+  color: $c-grayish-brown-three;
+  border-top: 1px solid rgba(150, 150, 150, 0.39);
+
+  .lc-column {
+    height: 30px;
+  }
+
+  .lc-finance-accordion__section-title{
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 45px;
+    text-align: left;
+    background-color: $c-light-gray-five;
+    border: 1px solid rgba(150, 150, 150, 0.39);
+    padding-left:25px;
+    border-top: 0px;
+    font-weight: 600;
+    color: $c-black;
+  }
+
+  .lc-accordion-title__content {
+    border: 1px solid rgba(150, 150, 150, 0.39);
+    border-top: 0px;
+    height: 45px;
+    padding-left: 54px;
+    .column, .columns {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+
+  .lc-accordion-item__title{
+    cursor: pointer;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .lc-accordion-item__title--disabled {
+    cursor: default;
+  }
+
+  .lc-accordion-item__text {
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 45px;
+  }
+
+  .lc-accordion-item__checkbox {
+    margin-left: 10px;
+  }
+
+  .lc-accordion-item__text--left-align {
+    text-align: left;
+    width: 100%;
+  }
+
+  .lc-fa-icon {
+    color: rgba(108, 108, 108, 0.71);
+  }
+
+  .fa-chevron-up {
+    display: inline;
+  }
+
+  .fa-chevron-down {
+    display: none;
+  }
+
+  .lc-accordion-item__body {}
+
+  .lc-transactions-table {
+    height: auto;
+  }
+
+  .lc-accordion-item__title[aria-expanded="true"] {}
+}

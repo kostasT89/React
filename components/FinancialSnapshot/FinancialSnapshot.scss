@@ -1,0 +1,69 @@
+@import '../../scss/config';
+@import '../../scss/colors';
+
+.lc-financial-snapshot {
+  height: 84px;
+  background-color: $c-white;
+  border: 1px solid rgba(150, 150, 150, 0.15);
+
+  .lc-financial-snapshot__content {
+    display: table;
+    width: 100%;
+  }
+
+  .lc-financial-snapshot__perex-container {
+    display: table-cell;
+    width: 180px;
+    border-right: 1px solid $c-warm-gray-two;
+    text-align: center;
+    vertical-align: middle;
+    height: 82px;
+  }
+
+  .lc-financial-snapshot__goals-container {
+    display: table-cell;
+  }
+
+  .lc-financial-snapshot__link {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    color: #45a8e5;
+    border-right: 1px solid $c-warm-gray-two;
+    width: 60px;
+    font-size: 24px;
+  }
+
+  .lc-financial-snapshot__link-text {
+    display: none;
+  }
+
+  .lc-financial-snapshot__goal-container {
+    min-width: 175px;
+    border-right: 1px solid $c-warm-gray-two;
+    text-align: center;
+  }
+
+  .columns {
+    padding: 0;
+  }
+
+  .column:last-child:not(:first-child),
+  .columns:last-child:not(:first-child) {
+    float: left;
+  }
+
+  .lc-goal-snapshot--perex {
+    vertical-align: middle;
+  }
+
+  .lc-financial-snapshot__link-text {
+    display: inline;
+  }
+
+  .lc-financial-snapshot__link {
+    width: 149px;
+    font-size: 15px;
+  }
+}

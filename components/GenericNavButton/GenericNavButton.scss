@@ -1,0 +1,22 @@
+@import '../../scss/colors';
+
+.lc-nav-button {
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 6px;
+  border: solid 2px $c-pinkish-gray;
+  font-size: 14px;
+  color: $c-warm-gray;
+  margin: 0;
+}
+
+.lc-button--blue {
+  background-color: $c-dark-sky-blue;
+  color: $c-white;
+  border: 2px solid $c-dark-sky-blue;
+}
+
+.lc-button--blue[disabled] {
+  background-color: $c-disabled-dark-sky-blue;
+  border: 2px solid $c-disabled-dark-sky-blue;
+}

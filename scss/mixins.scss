@@ -1,0 +1,17 @@
+// Create Mixins Here
+@import './colors.scss';
+
+$form-box-shadow: -1px 2px 3px 0px #cccccc;
+$card-box-shadow: 0 2px 23px 0 #ededed;
+$nav-button-box-shadow: 0 3px 2px 0px #a6a6a6;
+
+$green-bar-gradient: linear-gradient(271deg, #08af5a, rgba(0, 110, 95, 0.7));
+$income-green-bar-gradient-2: linear-gradient(92deg, #006e60, #08af5a);
+$red-bar-gradient: linear-gradient(271deg, #9d1b55, #d9595b);
+$orange-bar-gradient: linear-gradient(93deg, #db9b00, #ca5200);
+$blue-bar-gradient: linear-gradient(92deg, #009dc4, #3f4ab1);
+$teal-bar-gradient: linear-gradient(266deg, #11bdb8, #54ded4);
+$sky-blue-bar-gradient: linear-gradient(124deg, #2e678b, #45A8E5);
+$dark-sky-blue-bar-gradient: linear-gradient(124deg, $c-black, $c-dark-sky-blue);
+$gray-bar-gradient: linear-gradient(297deg, $c-grayish, #838383);
+$lime-green-bar-gradient: linear-gradient(293deg, #81b938, $c-tree-green);

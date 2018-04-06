@@ -1,0 +1,54 @@
+@import '../../../scss/colors';
+
+.lc--business-form {
+  .lc-column--buttons {
+    margin-top: 30px;
+    padding-bottom: 200px;
+    .lc-button {
+      width: 100%;
+      font-weight: bold;
+    }
+  }
+  .lc-row.row.lc-business-form__row {
+    margin-top: 24px;
+  }
+  .lc-row.row.lc-business-form__row--short {
+    margin-top: 12px;
+    margin-left: 0px;
+    display: flex;
+    align-items: flex-end;
+  }
+  .lc-input-group .lc-input-group__label {
+    margin-bottom: 6px;
+  }
+
+  .lc-select-group .lc-select-group__label {
+    margin-bottom: 6px;
+  }
+  .lc-row-tall {
+    .lc-input-group__label, .lc-select-group__label {
+      margin-bottom: 6px;
+      padding-top: 5px;
+    }
+  }
+  .fin-plan-radio-group.center {
+    .lc-radio-group__options {
+      text-align: center;
+    }
+    .lc-radio-group__label {
+      text-align: center;
+    }
+  }
+  .lc-input-group__label {
+    color: $c-warm-gray-five;
+  }
+  .lc-radio-group__label {
+    position: relative;
+    top: 6px;
+    color: $c-warm-gray-five;
+  }
+  .lc-text-area__label {
+    margin-bottom: 6px;
+    color: $c-warm-gray-five;
+  }
+}

@@ -1,0 +1,39 @@
+@import '../../scss/colors';
+
+.lc-icon-box {
+  text-align: center;
+  .lc-icon-box__content {
+    background-image: url('/assets/svg/oval.svg');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+  }
+
+  .lc-icon-box__image {
+    position: relative;
+    top: 25px;
+  }
+
+  .lc-icon-box__button {
+     margin-top: 21px;
+     text-align: center;
+     padding: 10px 17px 10px 17px;
+     min-height: 37px;
+	   border-radius: 6px;
+     border: solid 1px $c-pinkish-gray;
+     font-size: 18px;
+     letter-spacing: 1.5px;
+     color: $c-grayish-brown;
+  }
+  .lc-icon-box__text {
+    text-align: center;
+  	font-family: OpenSans;
+  	font-size: 14px;
+  	font-weight: 300;
+  	letter-spacing: 1.2px;
+    color: $c-grayish-brown;
+    margin-top: 17px;
+  }
+}

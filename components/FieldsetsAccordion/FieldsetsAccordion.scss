@@ -1,0 +1,103 @@
+.lc-accordion {
+  font-size: 14px;
+
+  .lc-column {
+    height: 30px;
+  }
+
+  .lc-accordion-item__text {
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .lc-checkbox {
+    width: 100px;
+  }
+
+  .lc-accordion-item__text--left-align {
+    text-align: left;
+    width: 100%;
+  }
+
+  .lc-fa-icon {
+    color: rgba(108, 108, 108, 0.71);
+  }
+
+  .fa-chevron-up {
+    display: inline;
+  }
+
+  .fa-chevron-down {
+    display: none;
+  }
+
+  .lc-transactions-table {
+    height: auto;
+  }
+
+  .lc-transactions-table .fa-chevron-down {
+    display: inline
+  }
+
+  .lc-accordion-item__title[aria-expanded="true"] {
+    .lc-column {
+      border-bottom: 2px solid $c-blue;
+    }
+    .fa-chevron-down {
+      display: inline;
+    }
+    .fa-chevron-up {
+      display: none;
+    }
+  }
+
+  .lc-accordion-item__title:focus { outline: none; }
+
+  .lc-accordion-item__checkbox {
+    margin-left: 10px;
+    position: absolute;
+    opacity: 0;
+    &:checked ~ .checkmark {
+      background-color: $c-yellow-orange;
+    }
+    &:hover input ~ .checkmark {
+      background-color: white;
+    }
+    &:checked ~ .checkmark:after {
+      display: block;
+    }
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 4px;
+    right: 0;
+    height: 15px;
+    width: 20px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid $c-light-gray;
+    &:after {
+      content: "";
+      position: absolute;
+      display: none;
+      left: 7px;
+      top: 2px;
+      width: 5px;
+      height: 8px;
+      border: solid white;
+      border-width: 0 2px 2px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+  }
+}

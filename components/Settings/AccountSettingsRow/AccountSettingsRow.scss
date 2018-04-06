@@ -1,0 +1,44 @@
+@import '../../../scss/config';
+@import '../../../scss/colors';
+
+.lc-account-settings__row-note {
+  font-size: 14px;
+  font-weight: 600;
+  color: $c-warm-gray-three;
+  width: 12%;
+}
+
+.lc-account-settings__table-data {
+  border: none;
+  text-align: left;
+  padding: 8px;
+  font-size: 20px;
+  letter-spacing: 1.7px;
+  height: 27px;
+  font-family: OpenSans;
+  color: $c-grayish-brown;
+
+  .lc-account-settings__table-data-text {
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.7px;
+    color: $c-grayish-brown;
+  }
+
+  &.chevron {
+    width: 2%;
+  }
+
+  &.account-name {
+    width: 25%;
+  }
+
+  &.amount {
+    width: 12%;
+  }
+
+  &.switch {
+    width: 3%;
+  }
+}

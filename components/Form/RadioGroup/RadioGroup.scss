@@ -1,0 +1,70 @@
+@import '../../../scss/mixins';
+@import '../../../scss/config';
+@import '../../../scss/colors';
+
+.lc-radio-group {
+
+  .lc-radio-group__option{
+    display: inline-block;
+  }
+
+  .lc-radio-group__field {
+    display: none;
+  }
+
+  .lc-radio-group__label {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    color: $c-warm-gray-three;
+  }
+
+  .lc-radio-group__field-label {
+    text-align: center;
+    width: 100%;
+    max-width: none;
+    min-height: $form-field-height;
+    background-color: $c-white-three;
+    box-shadow: $nav-button-box-shadow;
+    color: $c-warm-gray-two;
+    font-size: 14px;
+    line-height: $form-field-height;
+    margin-left: 0px;
+  }
+
+  .lc-radio-group__text {
+    line-height: $form-field-height;
+  }
+
+  .lc-column--left {
+    text-align: right;
+  }
+
+  .lc-column--right {
+    text-align: left;
+  }
+
+  .lc-radio-group__options{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+  }
+
+  .lc-radio-group__option {
+    display: inline-block;
+    width: 48%;
+    max-width: none;
+  }
+
+  .lc-radio-group__field-label:active,
+  .lc-radio-group__field:checked + .lc-radio-group__field-label {
+    background-color: $c-dark-sky-blue;
+    color: $c-white-three;
+    box-shadow: none;
+  }
+
+  .lc-radio-group__field-label-text {
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,60 @@
+@import '../../scss/colors';
+
+.lc-progress-bar {
+  border-radius: 20px;
+  overflow: hidden;
+  height: 42px;
+  position: relative;
+
+  .lc-progress-bar__meter {
+    float: left;
+    display: inline-block;
+    border-radius: 20px;
+    height: 42px;
+    min-width: 5%;
+    max-width: 100%;
+  }
+
+  .lc-progress-bar__meter-text {
+    font-size: 16px;
+    font-weight: 800;
+    left: 70px;
+    display: inline-block;
+    float: left;
+    span {
+      font-weight: normal;
+      font-size: 16px;
+      padding-right: 7px;
+    }
+  }
+
+  .lc-progress-bar__meter-text--fixed {
+    position: relative;
+    left: 80px;
+  }
+
+  .lc-progress-bar__remaining-container {
+    left: calc(100% - 180px);
+    overflow: visible;
+    z-index: 1001;
+    white-space: nowrap;
+    padding-right: 20px;
+    position: absolute;
+    .lc-progress-bar__remaining-text {
+      color: $c-white;
+      float: right;
+      line-height: 43px;
+      font-weight: 700;
+      display: block;
+      overflow: visible;
+      font-size: 16px;
+      span {
+        overflow: visible;
+        display: inline-block;
+        padding-right: 7px;
+        font-weight: normal;
+        font-size: 16px;
+      }
+    }
+  }
+}

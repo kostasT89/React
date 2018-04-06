@@ -1,0 +1,25 @@
+.callout-component {
+  position: fixed;
+  z-index: 10000;
+  top: 0px;
+  width: 100%;
+  padding: 1rem 0rem;
+  border: 1px solid black;
+  &.error-callout {
+    background-color: #f7e4e1;
+  }
+  &.success-callout {
+    background-color: #A1D471;
+  }
+  .callout-title {
+    font-weight: bold;
+  }
+  .exit-callout {
+    position: absolute;
+    padding: 7px;
+    right: 3px;
+    top: 0px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+}

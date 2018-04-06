@@ -1,0 +1,33 @@
+.lc-fin-plan-data-overview-page {
+    
+      .lc-fin-plan-data-overview-page__content {
+        border: solid 1px rgba(150, 150, 150, 0.22);
+        margin: 35px;
+        background-color: $c-white;
+        min-width: $page-min-content-width;
+        padding-bottom: 35px;
+        text-align: center;
+        height: 100vh;
+
+        .lc-fin-plan-data-description {
+          padding-top: 50px;
+          font-family: OpenSans;
+          font-weight: 300;
+          text-align: center;
+          font-size: 20px;
+          color: $c-warm-gray-six;
+          line-height: 24px;
+        }
+      }
+    
+      .lc-row {
+        display: inline-block;
+        width: 100%;
+    
+        a {
+          color: $c-white
+        }
+      }
+    
+    }
+    

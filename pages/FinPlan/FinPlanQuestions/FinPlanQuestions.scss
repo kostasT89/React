@@ -1,0 +1,21 @@
+.lc-financial-questions {
+    margin-bottom: 50px;
+
+  .lc-financial-questions__content{
+    border: solid 1px rgba(150, 150, 150, 0.22);
+    margin: $page-content-margins;
+    background-color: $c-white;
+    min-width: $page-min-content-width;
+    min-height: $page-min-content-height;
+    padding-bottom: 35px;
+    text-align: center;
+  }
+
+  .lc-financial-questions__header {
+    margin-bottom: 75px;
+  }
+  .lc-financial-questions-form {
+    display: flex;
+    flex-direction: column;
+  }
+}

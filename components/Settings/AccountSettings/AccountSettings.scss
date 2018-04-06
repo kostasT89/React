@@ -1,0 +1,113 @@
+@import '../../../scss/config';
+@import '../../../scss/colors';
+
+.lc-account-settings {
+  .lc-account-settings__accounts {
+    width: auto;
+    height: auto;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    border: solid 1px rgba(150, 150, 150, 0.22);
+    margin: 24px 20px 0 40px;
+
+    .lc-account-settings__header {
+      width: 100%;
+      height: 95px;
+      display: block;
+      margin-top: 25px;
+      padding-left: 65px;
+      padding-right: 75px;
+
+      .lc-account-settings__logo {
+        width: auto;
+        height: 100%;
+        float: left;
+        vertical-align: middle;
+        display: block;
+      }
+
+      .lc-account-settings__title {
+        width: auto;
+        height: 100%;
+        vertical-align: middle;
+        margin-top: 20px;
+        text-align: center;
+        font-family: OpenSans;
+        font-size: 16px;
+        letter-spacing: 1.7px;
+        font-weight: 400;
+        color: $c-grayish-brown;
+      }
+
+      .lc-account-settings__actions {
+        width: auto;
+        height: 100%;
+        float: right;
+        vertical-align: middle;
+
+        .lc-account-settings__ul {
+          list-style: none;
+          padding-left: 0;
+
+          li {
+            color: rgba(69, 168, 229, 0.7);
+            .lc-account-settings__list-content {
+              font-family: OpenSans;
+              font-size: 16px;
+              font-weight: 600;
+              color: rgba(69, 168, 229, 0.7);
+            }
+          }
+
+          .fa {
+            margin-right: 13px;
+            font-size: 25px;
+          }
+
+          .fa-times-thin:before {
+            content: '\00d7';
+          }
+        }
+
+      }
+    }
+
+    .lc-account-settings__header-divider {
+      border-bottom: 2px solid #000000;
+      border-color: $c-warm-gray-two;
+      opacity: 0.5;
+      margin-left: 65px;
+      margin-right: 75px;
+    }
+
+    .lc-account-settings__body {
+      width: 100%;
+      font-family: OpenSans;
+
+      .lc-account-settings__row-note {
+      	font-size: 14px;
+      	font-weight: 600;
+      	color: $c-warm-gray-three;
+      }
+
+      .lc-account-settings__table {
+        border-collapse: collapse;
+        width: 74%;
+        margin-top: 20px;
+        margin-left: 280px;
+        margin-bottom: 10px;
+      }
+
+      td, th {
+        border: none;
+        text-align: left;
+        padding: 8px;
+        font-size: 20px;
+      	letter-spacing: 1.7px;
+      	height: 27px;
+      	font-family: OpenSans;
+      	color: $c-grayish-brown;
+      }
+    }
+  }
+}

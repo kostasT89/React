@@ -1,0 +1,51 @@
+.lc-add-additional-asset-form {
+  .lc-row:not(:first-child) {
+    margin-top: 30px;
+  }
+}
+
+.lc-add-asset-form-buttons {
+  padding: 0px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.lc-add-asset-form-buttons:not(:first-child) {
+  margin-left: 30px;
+}
+
+.lc-form__selection-header {
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.lc-buttons-group {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.lc-form-content {
+  display: inline-block;
+  width: 100%;
+}
+
+.last-column {
+  float: left !important;
+}
+
+.lc-additional-asset-form-loading-wave {
+  height: 30px;
+}
+
+.lc-loading-wave-wrapper {
+  padding-top: 10px;
+  height: 40px;
+  text-align: center;
+  color: red;
+}

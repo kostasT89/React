@@ -1,0 +1,15 @@
+@import '../../../scss/config';
+
+.lc-preferences {
+
+  .lc-preferences__content {
+    min-width: $page-min-content-width;
+    margin-right: 30px;
+
+    // .lc-preferences__preferences-form-container {
+    //   background-color: $c-white;
+    //   border: solid 1px rgba(150, 150, 150, 0.22);
+    //   height: auto;
+    // }
+  }
+}

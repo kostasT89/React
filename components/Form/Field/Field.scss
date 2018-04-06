@@ -1,0 +1,32 @@
+@import '../../../scss/config';
+
+.lc-field {
+  height: 45px;
+  background-color: #FAFAFA;
+  border-bottom: 2px solid #D7D7D7;
+  padding: 0 10px 0 10px;
+
+  .lc-field__icon {
+    text-align: center;
+    width: $field-icon-width;
+    margin-left: 10px;
+    margin-right: 14px;
+  }
+
+  .lc-field__input,
+  input,
+  input:focus {
+    margin-top: 7px;
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  }
+
+  .lc-field__icon + .lc-field__input {
+    width: calc(100% - #{$field-icon-width} - 25px);
+  }
+}
